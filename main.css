@@ -4495,7 +4495,8 @@ article.article .simple-list li:before {
 
     display: -ms-flexbox;
 
-    display: flex
+    display: flex;
+    height: 430px;
 }
 
 
