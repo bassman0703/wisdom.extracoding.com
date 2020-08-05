@@ -5,15 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="https://gmpg.org/xfn/11">
 
-    <title>Donation &#8211; Widom Of Life</title>
-    <link rel="stylesheet" href="index.html">
-    <link rel="stylesheet" href="about.html">
-    <link rel="stylesheet" href="Activities.html">
-    <link rel="stylesheet" href="event.html">
-    <link rel="stylesheet" href="gallery.html">
-    <link rel="stylesheet" href="contact.html">
-    <link rel="stylesheet" href="donation.html">
-    <link rel="stylesheet" href="online-donation.html">
+    <title>Page not found &#8211; Widom Of Life</title>
     <link rel="stylesheet" href="some-css/uikit.css">
     <link rel="stylesheet" href="some-css/Site.css">
     <link rel="stylesheet" href="some-css/donation.css">
@@ -355,46 +347,198 @@
             </div>
         </div>
     </div>
-    <div class="uk-active">
+
+    <div class="uk-container uk-container-center">
+        <div class="donationDiv">
+            <h1 class="uk-text-center uk-margin-top">ონლაინ გადახდა</h1>
+            <form action="/ka/Donations/MakeDonation" method="post" novalidate="novalidate"><input
+                    name="__RequestVerificationToken" type="hidden"
+                    value="4eTE-u4fOGJDXO-V2o78AbBqG1fZjRz11cQg0ewJ87yt7o6JgNPE_4gvltPxszu55SgZGLhIQzPs_2X6jXqwIm4h4gMFSeXUpHOhAWK-FNg1">
+                <div class="uk-grid uk-grid-stack" uk-grid="">
+                    <div class="uk-width-large-1-1 uk-width-medium-1-1 uk-width-small-1-1 uk-first-column">
+                        <div class="switch-field">
+                            <input type="radio" id="switch_left" name="IsMonthly" value="false">
+                            <label for="switch_left">ერთჯერადი</label>
+                            <input type="radio" id="switch_right" name="IsMonthly" value="true" checked="">
+                            <label for="switch_right">რეგულარული</label>
+                        </div>
+                    </div>
+                    <div id="MonthlyInfo" class="uk-width-1-1 uk-grid-margin uk-first-column" style="">
+                        <p>
+                            * უვადო შემოწირულობების მაქსიმალური ხანგრძლივობა არის 5 წელი, თუ გსურთ რეგულარული
+                            შემოწირულობების მართვა დააჭირეთ ღილაკს
+
+                        </p>
+                    </div>
+
+                    <div class="siteForm uk-width-large-1-1 uk-width-medium-1-1 uk-width-small-1-1 uk-grid uk-grid-margin uk-first-column">
+                        <div class="uk-width-large-1-1 uk-width-medium-1-1 uk-width-small-1-1">
+                            <div id="donationAmount"
+                                 class="uk-padding-small uk-width-large-1-3 uk-width-medium-1-2 uk-width-small-1-1">
+                                <label>შემოწირულობის რაოდენობა</label>
+                                <div id="donateOptions">
+                                    <button type="button">15</button>
+                                    <button type="button">30</button>
+                                    <button type="button">50</button>
+                                    <button type="button">100</button>
+                                </div>
+                                <div class="uk-position-relative uk-margin-top">
+
+                                    <input value="null" class="uk-input uk-margin-bottom text-box single-line"
+                                           data-val="true" data-val-number="The field Donation Amount must be a number."
+                                           data-val-range="Minimum amount is 1" data-val-range-max="4294967295"
+                                           data-val-range-min="1"
+                                           data-val-required="The Donation Amount field is required."
+                                           id="DonationAmount" name="DonationAmount" type="number">
+                                    <div class="currencyselect">
+
+                                        <select class="currencySelect" data-val="true"
+                                                data-val-required="The DonationCurrency field is required."
+                                                id="DonationCurrency" name="DonationCurrency" aria-required="true"
+                                                aria-describedby="DonationCurrency-error" aria-invalid="false">
+                                            <option selected="selected" value="981">GEL</option>
+                                            <option value="840">USD</option>
+                                            <option value="978">EUR</option>
+
+                                        </select>
+                                        <i></i>
+                                    </div>
+                                    <span class="field-validation-valid uk-text-danger "
+                                          data-valmsg-for="DonationAmount" data-valmsg-replace="true"></span>
+                                </div>
 
 
+                            </div>
+
+                        </div>
+                        <div class="uk-width-large-1-3 uk-width-medium-1-2 uk-width-small-1-1">
+                            <label>დონორის სახელი</label>
+                            <div class="uk-margin-top">
+
+                                <input class="uk-input uk-margin-bottom text-box single-line" data-val="true"
+                                       data-val-length="Name cannot be longer than 200 characters."
+                                       data-val-length-max="200" data-val-required="The Name field is required."
+                                       id="Name" name="Name" type="text" value="">
+
+                                <span class="field-validation-valid uk-text-danger " data-valmsg-for="Name"
+                                      data-valmsg-replace="true"></span>
+                            </div>
 
 
-        <p style="text-align:center"><strong>ონლაინ გადმორიცხვა:</strong></p>
+                        </div>
 
-        <p style="text-align:center"><a class="uk-button uk-button-large uk-button-danger"
-                                      href="online-donation.html" id=""
-                                      style="background-color: #8bc34a; color: white;">ონლაინ დონაცია</a></p>
+                        <div class="uk-width-large-1-3 uk-width-medium-1-2 uk-width-small-1-1">
+                            <label>ელ-ფოსტა</label>
 
+                            <div class="uk-margin-top">
+                                <input class="uk-input uk-margin-bottom text-box single-line" data-val="true"
+                                       data-val-required="The Email field is required." id="Email" name="Email"
+                                       type="email" value="">
+                                <span class="field-validation-valid uk-text-danger" data-valmsg-for="Email"
+                                      data-valmsg-replace="true"></span>
+                            </div>
+                        </div>
+
+                        <div class="uk-width-large-1-3 uk-width-medium-1-2 uk-width-small-1-1">
+                            <label>მობილური</label>
+
+                            <div class="uk-margin-top">
+
+                                <input class="uk-input uk-margin-bottom text-box single-line" id="PhoneNumber"
+                                       name="PhoneNumber" type="text" value="">
+                                <span class="field-validation-valid uk-text-danger" data-valmsg-for="PhoneNumber"
+                                      data-valmsg-replace="true"></span>
+                            </div>
+                        </div>
+
+
+                        <input type="hidden" name="ClientIp" value="109.172.140.2">
+
+                        <div id="durationPick" class="uk-width-large-1-3 uk-width-medium-1-2 uk-width-small-1-1"
+                             style="display: none;">
+                            <label>შემოწირულობის ხანგრძლივობა</label>
+                            <div class="uk-margin-top">
+                                <div class="switch-field limit uk-margin-bottom">
+                                    <input type="radio" id="switch_left_limit" name="DurationLimitMain" value="true"
+                                           checked="">
+                                    <label for="switch_left_limit">უვადო (5 წელი)</label>
+                                    <input type="radio" id="switch_right_limit" name="DurationLimitMain" value="false">
+                                    <label for="switch_right_limit">ვადიანი</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="display: none" id="durationMonths"
+                             class="uk-width-large-1-3 uk-width-medium-1-2 uk-width-small-1-1">
+                            <label>თვე</label>
+                            <div class="uk-margin-top ">
+
+
+                                <input class="uk-input uk-margin-bottom text-box single-line" data-val="true"
+                                       data-val-number="The field Duration must be a number." id="durationInput"
+                                       name="Duration" type="number" value="">
+                                <span class="field-validation-valid uk-text-danger" data-valmsg-for="Duration"
+                                      data-valmsg-replace="true"></span>
+                            </div>
+                        </div>
+
+                        <div class="uk-width-1-1">
+
+                            <div class="uk-margin-top donationsButton buttonInput">
+                                <input type="submit" value="დადასტურება" class="btn btn-default">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </form>
+            <div class="uk-width-1-1  uk-margin-bottom uk-margin-top ">
+
+                <div class="annullButton uk-text-right">
+
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <div class="container text-center">
         <p><em>&nbsp;</em></p>
-
+        <p><em>&nbsp;</em></p>
         <p style="text-align:center"><strong>საბანკო გადარიცხვის რეკვიზიტები:</strong></p>
-    <div class="recvisit">
-        <p><em><strong>ლარის ანგარიში</strong></em></p>
+        <div class="row">
+            <div class=" col-md-6 col-sm-6 col-lg col-lg-6">
+                <p><em>&nbsp;</em></p>
+                    <p><em><strong>ლარის ანგარიში</strong></em></p>
 
-        <p>სს “თიბისი ბანკი” – asdasd</p>
+                    <p>სს “თიბისი ბანკი” – asdasd</p>
 
-        <p>საბანკო კოდი: TBCBGE22</p>
+                    <p>საბანკო კოდი: TBCBGE22</p>
 
-        <p>მიმღები: ფონდი "asdasd"</p>
+                    <p>მიმღები: ფონდი "asdasd"</p>
 
-        <p>ანგარიშის ნომერი: 12345678</p>
+                    <p>ანგარიშის ნომერი: 12345678</p>
 
-        <p><em>&nbsp;</em></p>
+            </div>
 
-        <p><em><strong>USD/EUR/GBP- ანგარიში</strong></em></p>
+            <div class="col-md-6 col-sm-6 col-lg-6">
+                <p><em>&nbsp;</em></p>
+                <p><em><strong>USD/EUR/GBP- ანგარიში</strong></em></p>
 
-        <p>CITIBANK N.A.<br>
-            NEW-YORK, USA<br>
-            SWIFT:CITIUS33<br>
-            ABA:021000089<br>
-            HEAD OFFICE SWIFT: TBCBGE22<br>
-            JSC"TBC Bank", asd<br>
-            SWIFT:asd<br>
-            ACCOUNT:asd<br>
-            NAME OF BENEFICIARY: "asd"</p>
+                <p>CITIBANK N.A.<br>
+                    NEW-YORK, USA<br>
+                    SWIFT:CITIUS33<br>
+                    ABA:021000089<br>
+                    HEAD OFFICE SWIFT: TBCBGE22<br>
+                    JSC"TBC Bank", asd<br>
+                    SWIFT:asd<br>
+                    ACCOUNT:asd<br>
+                    NAME OF BENEFICIARY: "asd"</p>
 
-</div>
+            </div>
+    </div>
     </div>
     <footer class="page-footer">
 
