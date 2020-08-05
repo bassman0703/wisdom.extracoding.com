@@ -2221,7 +2221,6 @@ input,
 input[type=password],
 input[type=search],
 input[type=text] {
-    height: 40px;
     padding: 0 20px
 }
 
@@ -2265,7 +2264,8 @@ form {
     color: #fff;
     display: block;
     width: 100%;
-    border-radius: 2px
+    border-radius: 2px;
+    height:41px;
 }
 
 .page-footer .widget_mc4wp_form_widget .mc4wp-form input::-webkit-input-placeholder,

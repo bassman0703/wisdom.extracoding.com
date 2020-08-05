@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="https://gmpg.org/xfn/11">
 
-    <title>Page not found &#8211; Widom Of Life</title>
+    <title>Widom Of Life &#8211; Just another Extracoding site</title>
     <link rel="stylesheet" href="index.html">
     <link rel="stylesheet" href="about.html">
     <link rel="stylesheet" href="Activities.html">
@@ -13,173 +13,157 @@
     <link rel="stylesheet" href="gallery.html">
     <link rel="stylesheet" href="contact.html">
 
+
     <link rel='dns-prefetch' href='//fonts.googleapis.com'/>
     <link rel='dns-prefetch' href='//s.w.org'/>
     <link rel="alternate" type="application/rss+xml" title="Widom Of Life &raquo; Feed"
-          href="wisdom.extracoding.com"/>
+          href="http://wisdom.extracoding.com/feed/"/>
     <link rel="alternate" type="application/rss+xml" title="Widom Of Life &raquo; Comments Feed"
-          href="wisdom.extracoding2.com"/>
+          href="http://wisdom.extracoding.com/comments/feed/"/>
     <!-- This site uses the Google Analytics by MonsterInsights plugin v7.10.4 - Using Analytics tracking - https://www.monsterinsights.com/ -->
-    <script type="text/javascript" data-cfasync="false">
-        var mi_version = '7.10.4';
-        var mi_track_user = true;
-        var mi_no_track_reason = '';
+    <script type="text/javascript" data-cfasync="false">var mi_version = '7.10.4';
+    var mi_track_user = true;
+    var mi_no_track_reason = '';
+    var disableStr = 'ga-disable-UA-42761673-1';
 
-        var disableStr = 'ga-disable-UA-42761673-1';
+    function __gaTrackerIsOptedOut() {
+        return document.cookie.indexOf(disableStr + '=true') > -1;
+    }
 
-        /* Function to detect opted out users */
-        function __gaTrackerIsOptedOut() {
-            return document.cookie.indexOf(disableStr + '=true') > -1;
-        }
+    if (__gaTrackerIsOptedOut()) {
+        window[disableStr] = true;
+    }
 
-        /* Disable tracking if the opt-out cookie exists. */
-        if (__gaTrackerIsOptedOut()) {
-            window[disableStr] = true;
-        }
+    function __gaTrackerOptout() {
+        document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+        window[disableStr] = true;
+    }
 
-        /* Opt-out function */
-        function __gaTrackerOptout() {
-            document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
-            window[disableStr] = true;
-        }
-
-        if (mi_track_user) {
-            (function (i, s, o, g, r, a, m) {
-                i['GoogleAnalyticsObject'] = r;
-                i[r] = i[r] || function () {
-                    (i[r].q = i[r].q || []).push(arguments)
-                }, i[r].l = 1 * new Date();
-                a = s.createElement(o),
-                    m = s.getElementsByTagName(o)[0];
-                a.async = 1;
-                a.src = g;
-                m.parentNode.insertBefore(a, m)
-            })(window, document, 'script', '//www.google-analytics.com/analytics.js', '__gaTracker');
-
-            __gaTracker('create', 'UA-42761673-1', 'auto');
-            __gaTracker('set', 'forceSSL', true);
-            __gaTracker('require', 'displayfeatures');
-            __gaTracker('send', 'pageview', '/404.html?page=' + document.location.pathname + document.location.search + '&from=' + document.referrer);
-        } else {
-            console.log("");
-            (function () {
-                /* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
-                var noopfn = function () {
-                    return null;
-                };
-                var noopnullfn = function () {
-                    return null;
-                };
-                var Tracker = function () {
-                    return null;
-                };
-                var p = Tracker.prototype;
-                p.get = noopfn;
-                p.set = noopfn;
-                p.send = noopfn;
-                var __gaTracker = function () {
-                    var len = arguments.length;
-                    if (len === 0) {
-                        return;
-                    }
-                    var f = arguments[len - 1];
-                    if (typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function') {
-                        console.log('Not running function __gaTracker(' + arguments[0] + " ....) because you are not being tracked. " + mi_no_track_reason);
-                        return;
-                    }
-                    try {
-                        f.hitCallback();
-                    } catch (ex) {
-
-                    }
-                };
-                __gaTracker.create = function () {
-                    return new Tracker();
-                };
-                __gaTracker.getByName = noopnullfn;
-                __gaTracker.getAll = function () {
-                    return [];
-                };
-                __gaTracker.remove = noopfn;
-                window['__gaTracker'] = __gaTracker;
-            })();
-        }
-    </script>
-    <!-- / Google Analytics by MonsterInsights -->
-    <script type="text/javascript">
-        window._wpemojiSettings = {
-            "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/",
-            "ext": ".png",
-            "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/",
-            "svgExt": ".svg",
-            "source": {"concatemoji": "http:\/\/wisdom.extracoding.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.3.2"}
-        };
-        !function (e, a, t) {
-            var r, n, o, i, p = a.createElement("canvas"), s = p.getContext && p.getContext("2d");
-
-            function c(e, t) {
-                var a = String.fromCharCode;
-                s.clearRect(0, 0, p.width, p.height), s.fillText(a.apply(this, e), 0, 0);
-                var r = p.toDataURL();
-                return s.clearRect(0, 0, p.width, p.height), s.fillText(a.apply(this, t), 0, 0), r === p.toDataURL()
-            }
-
-            function l(e) {
-                if (!s || !s.fillText) return !1;
-                switch (s.textBaseline = "top", s.font = "600 32px Arial", e) {
-                    case"flag":
-                        return !c([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) && (!c([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) && !c([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]));
-                    case"emoji":
-                        return !c([55357, 56424, 55356, 57342, 8205, 55358, 56605, 8205, 55357, 56424, 55356, 57340], [55357, 56424, 55356, 57342, 8203, 55358, 56605, 8203, 55357, 56424, 55356, 57340])
+    if (mi_track_user) {
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', '__gaTracker');
+        __gaTracker('create', 'UA-42761673-1', 'auto');
+        __gaTracker('set', 'forceSSL', true);
+        __gaTracker('require', 'displayfeatures');
+        __gaTracker('send', 'pageview');
+    } else {
+        console.log("");
+        (function () {
+            var noopfn = function () {
+                return null;
+            };
+            var noopnullfn = function () {
+                return null;
+            };
+            var Tracker = function () {
+                return null;
+            };
+            var p = Tracker.prototype;
+            p.get = noopfn;
+            p.set = noopfn;
+            p.send = noopfn;
+            var __gaTracker = function () {
+                var len = arguments.length;
+                if (len === 0) {
+                    return;
                 }
-                return !1
-            }
+                var f = arguments[len - 1];
+                if (typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function') {
+                    console.log('Not running function __gaTracker(' + arguments[0] + " ....) because you are not being tracked. " + mi_no_track_reason);
+                    return;
+                }
+                try {
+                    f.hitCallback();
+                } catch (ex) {
+                }
+            };
+            __gaTracker.create = function () {
+                return new Tracker();
+            };
+            __gaTracker.getByName = noopnullfn;
+            __gaTracker.getAll = function () {
+                return [];
+            };
+            __gaTracker.remove = noopfn;
+            window['__gaTracker'] = __gaTracker;
+        })();
+    }</script>
+    <!-- / Google Analytics by MonsterInsights -->
+    <script type="text/javascript">window._wpemojiSettings = {
+        "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/",
+        "ext": ".png",
+        "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/",
+        "svgExt": ".svg",
+        "source": {"concatemoji": "http:\/\/wisdom.extracoding.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.3.2"}
+    };
+    !function (e, a, t) {
+        var r, n, o, i, p = a.createElement("canvas"), s = p.getContext && p.getContext("2d");
 
-            function d(e) {
-                var t = a.createElement("script");
-                t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t)
-            }
-
-            for (i = Array("flag", "emoji"), t.supports = {
-                everything: !0,
-                everythingExceptFlag: !0
-            }, o = 0; o < i.length; o++) t.supports[i[o]] = l(i[o]), t.supports.everything = t.supports.everything && t.supports[i[o]], "flag" !== i[o] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[i[o]]);
-            t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function () {
-                t.DOMReady = !0
-            }, t.supports.everything || (n = function () {
-                t.readyCallback()
-            }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function () {
-                "complete" === a.readyState && t.readyCallback()
-            })), (r = t.source || {}).concatemoji ? d(r.concatemoji) : r.wpemoji && r.twemoji && (d(r.twemoji), d(r.wpemoji)))
-        }(window, document, window._wpemojiSettings);
-    </script>
-    <style type="text/css">
-        img.wp-smiley,
-        img.emoji {
-            display: inline !important;
-            border: none !important;
-            box-shadow: none !important;
-            height: 1em !important;
-            width: 1em !important;
-            margin: 0 .07em !important;
-            vertical-align: -0.1em !important;
-            background: none !important;
-            padding: 0 !important;
+        function c(e, t) {
+            var a = String.fromCharCode;
+            s.clearRect(0, 0, p.width, p.height), s.fillText(a.apply(this, e), 0, 0);
+            var r = p.toDataURL();
+            return s.clearRect(0, 0, p.width, p.height), s.fillText(a.apply(this, t), 0, 0), r === p.toDataURL()
         }
-    </style>
+
+        function l(e) {
+            if (!s || !s.fillText) return !1;
+            switch (s.textBaseline = "top", s.font = "600 32px Arial", e) {
+                case"flag":
+                    return !c([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) && (!c([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) && !c([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]));
+                case"emoji":
+                    return !c([55357, 56424, 55356, 57342, 8205, 55358, 56605, 8205, 55357, 56424, 55356, 57340], [55357, 56424, 55356, 57342, 8203, 55358, 56605, 8203, 55357, 56424, 55356, 57340])
+            }
+            return !1
+        }
+
+        function d(e) {
+            var t = a.createElement("script");
+            t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t)
+        }
+
+        for (i = Array("flag", "emoji"), t.supports = {
+            everything: !0,
+            everythingExceptFlag: !0
+        }, o = 0; o < i.length; o++) t.supports[i[o]] = l(i[o]), t.supports.everything = t.supports.everything && t.supports[i[o]], "flag" !== i[o] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[i[o]]);
+        t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function () {
+            t.DOMReady = !0
+        }, t.supports.everything || (n = function () {
+            t.readyCallback()
+        }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function () {
+            "complete" === a.readyState && t.readyCallback()
+        })), (r = t.source || {}).concatemoji ? d(r.concatemoji) : r.wpemoji && r.twemoji && (d(r.twemoji), d(r.wpemoji)))
+    }(window, document, window._wpemojiSettings);</script>
+    <style type="text/css">img.wp-smiley, img.emoji {
+        display: inline !important;
+        border: none !important;
+        box-shadow: none !important;
+        height: 1em !important;
+        width: 1em !important;
+        margin: 0 .07em !important;
+        vertical-align: -.1em !important;
+        background: none !important;
+        padding: 0 !important
+    }</style>
     <link rel='stylesheet' id='wp-block-library-css'
           href='some-css/style.min.css'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='contact-form-7-css'
-          href='some-css/styles.css'
+          href='some-css/style.min.css'
           type='text/css' media='all'/>
     <link rel='stylesheet' id='rs-plugin-settings-css'
           href='some-css/rs6.css'
           type='text/css' media='all'/>
-    <style id='rs-plugin-settings-inline-css' type='text/css'>
-        #rs-demo-id {
-        }
-    </style>
+    <style id='rs-plugin-settings-inline-css' type='text/css'>#rs-demo-id {
+    }</style>
     <link rel='stylesheet' id='slick-css'
           href='some-css/slick.css'
           type='text/css' media='all'/>
@@ -195,25 +179,44 @@
     <link rel='stylesheet' id='wl-main-style-css'
           href='some-css/main.css'
           type='text/css' media='all'/>
-    <script type='text/javascript'>
-        /* <![CDATA[ */
-        var monsterinsights_frontend = {
-            "js_events_tracking": "true",
-            "download_extensions": "doc,pdf,ppt,zip,xls,docx,pptx,xlsx",
-            "inbound_paths": "[]",
-            "home_url": "http:\/\/wisdom.extracoding.com",
-            "hash_tracking": "false"
-        };
-        /* ]]> */
-    </script>
+    <link rel='stylesheet' id='elementor-icons-css'
+          href='some-css/elementor-icons.min.css'
+          type='text/css' media='all'/>
+    <link rel='stylesheet' id='elementor-animations-css'
+          href='some-css/animations.min.css'
+          type='text/css' media='all'/>
+    <link rel='stylesheet' id='elementor-frontend-css'
+          href='some-css/frontend.min.css'
+          type='text/css' media='all'/>
+    <link rel='stylesheet' id='ekko-lightbox-css'
+          href='some-css/ekko-lightbox.css'
+          type='text/css' media='all'/>
+    <link rel='stylesheet' id='elementor-global-css'
+          href='some-css/global.css'
+          type='text/css' media='all'/>
+    <link rel='stylesheet' id='elementor-post-24-css'
+          href='some-css/post-24.css'
+          type='text/css' media='all'/>
+    <link rel='stylesheet' id='google-fonts-1-css'
+          href='some-css/css2.css'
+          type='text/css' media='all'/>
+    <script type='text/javascript'>//<![CDATA[
+    var monsterinsights_frontend = {
+        "js_events_tracking": "true",
+        "download_extensions": "doc,pdf,ppt,zip,xls,docx,pptx,xlsx",
+        "inbound_paths": "[]",
+        "home_url": "http:\/\/wisdom.extracoding.com",
+        "hash_tracking": "false"
+    };
+    //]]></script>
     <script type='text/javascript'
-            src='js/frontend.min.js'></script>
+            src='js/frontend.min.js,qver=7.10.4.pagespeed.ce.6OGSbmBMI5.js'></script>
     <script type='text/javascript'
-            src='js/jquery.js'></script>
+            src='js/jquery.js,qver=1.12.4-wp.pagespeed.jm.gp20iU5FlU.js'></script>
     <script type='text/javascript'
-            src='js/jquery-migrate.min.js'></script>
+            src='js/jquery-migrate.min.js,qver=1.4.1.pagespeed.jm.C2obERNcWh.js'></script>
     <script type='text/javascript'
-            src='js/rbtools.min.js'></script>
+            src='js/rbtools.min.js,qver=6.0.1.pagespeed.jm.VLFWgBnRPV.js'></script>
     <script type='text/javascript'
             src='js/rs6.min.js'></script>
     <link rel='https://api.w.org/' href='json/download.json'/>
@@ -221,15 +224,19 @@
     <link rel="wlwmanifest" type="application/wlwmanifest+xml"
           href="xml/wlwmanifest.xml"/>
     <meta name="generator" content="WordPress 5.3.2"/>
+    <link rel="canonical" href="http://wisdom.extracoding.com/"/>
+    <link rel='shortlink' href='http://wisdom.extracoding.com/'/>
+    <link rel="alternate" type="application/json+oembed"
+          href="json/embed.json"/>
+    <link rel="alternate" type="text/xml+oembed"
+          href="xml/embed.xml"/>
     <meta name="generator"
           content="Powered by Slider Revolution 6.2.5 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface."/>
     <script type="text/javascript">function setREVStartSize(e) {
-        //window.requestAnimationFrame(function() {
         window.RSIW = window.RSIW === undefined ? window.innerWidth : window.RSIW;
         window.RSIH = window.RSIH === undefined ? window.innerHeight : window.RSIH;
         try {
-            var pw = document.getElementById(e.c).parentNode.offsetWidth,
-                newh;
+            var pw = document.getElementById(e.c).parentNode.offsetWidth, newh;
             pw = pw === 0 || isNaN(pw) ? window.RSIW : pw;
             e.tabw = e.tabw === undefined ? 0 : parseInt(e.tabw);
             e.thumbw = e.thumbw === undefined ? 0 : parseInt(e.thumbw);
@@ -239,17 +246,13 @@
             e.thumbhide = e.thumbhide === undefined ? 0 : parseInt(e.thumbhide);
             e.mh = e.mh === undefined || e.mh == "" || e.mh === "auto" ? 0 : parseInt(e.mh, 0);
             if (e.layout === "fullscreen" || e.l === "fullscreen")
-                newh = Math.max(e.mh, window.RSIH);
-            else {
+                newh = Math.max(e.mh, window.RSIH); else {
                 e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
                 for (var i in e.rl) if (e.gw[i] === undefined || e.gw[i] === 0) e.gw[i] = e.gw[i - 1];
                 e.gh = e.el === undefined || e.el === "" || (Array.isArray(e.el) && e.el.length == 0) ? e.gh : e.el;
                 e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
                 for (var i in e.rl) if (e.gh[i] === undefined || e.gh[i] === 0) e.gh[i] = e.gh[i - 1];
-
-                var nl = new Array(e.rl.length),
-                    ix = 0,
-                    sl;
+                var nl = new Array(e.rl.length), ix = 0, sl;
                 e.tabw = e.tabhide >= pw ? 0 : e.tabw;
                 e.thumbw = e.thumbhide >= pw ? 0 : e.thumbw;
                 e.tabh = e.tabhide >= pw ? 0 : e.tabh;
@@ -269,18 +272,16 @@
         } catch (e) {
             console.log("Failure at Presize of Slider:" + e)
         }
-        //});
     };</script>
     <style id="kirki-inline-styles">a, .block .block-header .block-title, .tabs .nav-link.active {
-        color: #570000;
+        color: #570000
     }</style>
 </head>
 
-<body class="error404 hfeed no-sidebar elementor-default">
+<body class="home page-template page-template-front-page-template page-template-front-page-template-php page page-id-24 no-sidebar elementor-default elementor-kit-118 elementor-page elementor-page-24">
 <div id="site" class="page-wrapper">
 
     <header class="page-header">
-
 
 
         <div class="page-header__middle">
@@ -288,8 +289,127 @@
                 <div class="middle-left">
                     <div class="page-header-brand">
                         <a class="brand-logo" href="index.html">
-                            <img src="img/logo.png"
-                                 alt="logo">
+                            <script pagespeed_no_defer="">//<![CDATA[
+                            (function () {
+                                var g = this, h = function (b, d) {
+                                    var a = b.split("."), c = g;
+                                    a[0] in c || !c.execScript || c.execScript("var " + a[0]);
+                                    for (var e; a.length && (e = a.shift());) a.length || void 0 === d ? c[e] ? c = c[e] : c = c[e] = {} : c[e] = d
+                                };
+                                var l = function (b) {
+                                    var d = b.length;
+                                    if (0 < d) {
+                                        for (var a = Array(d), c = 0; c < d; c++) a[c] = b[c];
+                                        return a
+                                    }
+                                    return []
+                                };
+                                var m = function (b) {
+                                    var d = window;
+                                    if (d.addEventListener) d.addEventListener("load", b, !1); else if (d.attachEvent) d.attachEvent("onload", b); else {
+                                        var a = d.onload;
+                                        d.onload = function () {
+                                            b.call(this);
+                                            a && a.call(this)
+                                        }
+                                    }
+                                };
+                                var n, p = function (b, d, a, c, e) {
+                                    this.f = b;
+                                    this.h = d;
+                                    this.i = a;
+                                    this.c = e;
+                                    this.e = {
+                                        height: window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight,
+                                        width: window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth
+                                    };
+                                    this.g = c;
+                                    this.b = {};
+                                    this.a = [];
+                                    this.d = {}
+                                }, q = function (b, d) {
+                                    var a, c, e = d.getAttribute("pagespeed_url_hash");
+                                    if (a = e && !(e in b.d)) if (0 >= d.offsetWidth && 0 >= d.offsetHeight) a = !1; else {
+                                        c = d.getBoundingClientRect();
+                                        var f = document.body;
+                                        a = c.top + ("pageYOffset" in window ? window.pageYOffset : (document.documentElement || f.parentNode || f).scrollTop);
+                                        c = c.left + ("pageXOffset" in window ? window.pageXOffset : (document.documentElement || f.parentNode || f).scrollLeft);
+                                        f = a.toString() + "," + c;
+                                        b.b.hasOwnProperty(f) ? a = !1 : (b.b[f] = !0, a = a <= b.e.height && c <= b.e.width)
+                                    }
+                                    a && (b.a.push(e), b.d[e] = !0)
+                                };
+                                p.prototype.checkImageForCriticality = function (b) {
+                                    b.getBoundingClientRect && q(this, b)
+                                };
+                                h("pagespeed.CriticalImages.checkImageForCriticality", function (b) {
+                                    n.checkImageForCriticality(b)
+                                });
+                                h("pagespeed.CriticalImages.checkCriticalImages", function () {
+                                    r(n)
+                                });
+                                var r = function (b) {
+                                    b.b = {};
+                                    for (var d = ["IMG", "INPUT"], a = [], c = 0; c < d.length; ++c) a = a.concat(l(document.getElementsByTagName(d[c])));
+                                    if (0 != a.length && a[0].getBoundingClientRect) {
+                                        for (c = 0; d = a[c]; ++c) q(b, d);
+                                        a = "oh=" + b.i;
+                                        b.c && (a += "&n=" + b.c);
+                                        if (d = 0 != b.a.length) for (a += "&ci=" + encodeURIComponent(b.a[0]), c = 1; c < b.a.length; ++c) {
+                                            var e = "," + encodeURIComponent(b.a[c]);
+                                            131072 >= a.length + e.length && (a += e)
+                                        }
+                                        b.g && (e = "&rd=" + encodeURIComponent(JSON.stringify(s())), 131072 >= a.length + e.length && (a += e), d = !0);
+                                        t = a;
+                                        if (d) {
+                                            c = b.f;
+                                            b = b.h;
+                                            var f;
+                                            if (window.XMLHttpRequest) f = new XMLHttpRequest; else if (window.ActiveXObject) try {
+                                                f = new ActiveXObject("Msxml2.XMLHTTP")
+                                            } catch (k) {
+                                                try {
+                                                    f = new ActiveXObject("Microsoft.XMLHTTP")
+                                                } catch (u) {
+                                                }
+                                            }
+                                            f && (f.open("POST", c + (-1 == c.indexOf("?") ? "?" : "&") + "url=" + encodeURIComponent(b)), f.setRequestHeader("Content-Type", "application/x-www-form-urlencoded"), f.send(a))
+                                        }
+                                    }
+                                }, s = function () {
+                                    var b = {}, d = document.getElementsByTagName("IMG");
+                                    if (0 == d.length) return {};
+                                    var a = d[0];
+                                    if (!("naturalWidth" in a && "naturalHeight" in a)) return {};
+                                    for (var c = 0; a = d[c]; ++c) {
+                                        var e = a.getAttribute("pagespeed_url_hash");
+                                        e && (!(e in b) && 0 < a.width && 0 < a.height && 0 < a.naturalWidth && 0 < a.naturalHeight || e in b && a.width >= b[e].k && a.height >= b[e].j) && (b[e] = {
+                                            rw: a.width,
+                                            rh: a.height,
+                                            ow: a.naturalWidth,
+                                            oh: a.naturalHeight
+                                        })
+                                    }
+                                    return b
+                                }, t = "";
+                                h("pagespeed.CriticalImages.getBeaconData", function () {
+                                    return t
+                                });
+                                h("pagespeed.CriticalImages.Run", function (b, d, a, c, e, f) {
+                                    var k = new p(b, d, a, e, f);
+                                    n = k;
+                                    c && m(function () {
+                                        window.setTimeout(function () {
+                                            r(k)
+                                        }, 0)
+                                    })
+                                });
+                            })();
+                            pagespeed.CriticalImages.Run('/mod_pagespeed_beacon', 'http://wisdom.extracoding.com/?fbclid=IwAR0aIBsvUDHZoMrF4-TU6Ffym86hfw93S9-nwElc2vRj_KjL8cvsnl-0sC0', 'YddRYU7ik1', true, false, '0LArx_MalCE');
+                            //]]></script>
+                            <img src="http://wisdom.extracoding.com/wp-content/themes/wisdom-of-life/assets/img/logo.png"
+                                 alt="logo" pagespeed_url_hash="1169956617"
+                                 onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
                         </a>
                     </div>
                     <div class="brand-text">
@@ -298,7 +418,7 @@
                 </div>
                 <div class="middle-right">
                     <form role="search" method="get" class="form--search" action="http://wisdom.extracoding.com/">
-                        <input type="search" id="search-form-5f2170121be71" placeholder="Enter any Keyword" value=""
+                        <input type="search" id="search-form-5f215c16c1b72" placeholder="Enter any Keyword" value=""
                                name="s"/>
                         <button type="submit"><i class="icon icon-search"></i></button>
                     </form>
@@ -315,88 +435,954 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul id="main-menu" class="navbar-nav page-menu">
                             <li id="menu-item-2129"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home nav-item menu-item-2129">
-                                <a class="nav-link" href="index.html">მთავარი</a></li>
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-24 current_page_item nav-item menu-item-2129 active">
+                                <a class="nav-link" href="index.html">მთავარი</a>
+                            </li>
                             <li id="menu-item-2054"
                                 class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-2054">
-                                <a class="nav-link" href="about.html">ჩვენს შესახებ</a></li>
+                                <a class="nav-link" href="about.html">ჩვენს შესახებ</a>
+                            </li>
                             <li id="menu-item-2090"
-                                class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-has-children nav__dropdown nav-item menu-item-2090">
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children nav__dropdown nav-item menu-item-2090">
                                 <a class="nav-link" href="Activities.html">საქმიანობა</a>
                             </li>
                             <li id="menu-item-2053"
-                                class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-has-children nav__dropdown nav-item menu-item-2053 active">
+                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children nav__dropdown nav-item menu-item-2053">
                                 <a class="nav-link" href="event.html">პუბლიკაციები</a>
+
                             </li>
                             <li id="menu-item-2056"
                                 class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-2056">
-                                <a class="nav-link" href="gallery.html">გალერეა</a>
-                            </li>
+                                <a class="nav-link" href="gallery.html">გალერეა</a></li>
                             <li id="menu-item-2091"
                                 class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-2091">
-                                <a class="nav-link" href="contact.html">კონტაქტი</a>
-                            </li>
+                                <a class="nav-link" href="contact.html">კონტაქტი</a></li>
                         </ul>
                     </div>
                 </nav>
 
                 <div class="navbar-extend">
                     <div class="btn-group">
-                        <button type="button" class="extend-btn dropdown-toggle" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">
-                            Announcements
-                        </button>
-                        <div class="dropdown-menu dropdown-menu-right extend-dropdown">
-                            <ul class="recent-items">
-                                <li>
-                                    <a href="http://wisdom.extracoding.com/child-cruelty-neglect-crimes-rise/">
-                                        <h3>Child cruelty and neglect crimes continue to rise every year</h3>
-                                        <div class="comment-info">February 26, 2020, 0 Comments</div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="http://wisdom.extracoding.com/a-celebration-of-life-and-child-abuse/">
-                                        <h3>A Celebration of Life and Child Abuse</h3>
-                                        <div class="comment-info">February 26, 2020, 0 Comments</div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="http://wisdom.extracoding.com/7-minutes-child-abuse-image-offence/">
-                                        <h3>Child abuse offense recorded every 7 minutes in the UK</h3>
-                                        <div class="comment-info">March 18, 2020, 0 Comments</div>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
+                        <a class="extend-btn dropdown-toggle" href="donation.html">
+                            დონაცია
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </header>
-    <div class="hero hero--sm"
-         style="background-image:url(img/banner-inner.jpg);">
-        <div class="container">
-            <div class="content">
-                <h1 class="page-title">Page Not Found</h1>
-            </div>
-        </div>
-    </div>
     <main>
         <div class="content-wrapper container">
 
-            <div class="inner-content">
-                <div id="primary" class="content-group">
-                    <div class="content">
-                        <div class="page-content-row">
-                            <div class="error-page text-center">
-                                <img src="img/404.png"
-                                     alt="404">
-                                <h3>Page Not Found</h3>
-                                <p>Were sorry, the page you have looked for does not exist in our database! Maybe go to
-                                    our home page or try to use a search?</p>
-                                <a href="index.html" class="btn-style2">Go Back to home Page</a>
-                            </div><!--error-page end-->
-                        </div><!--page-content-row end-->
+            <div id="primary" class="page-content">
+                <div data-elementor-type="wp-page" data-elementor-id="24" class="elementor elementor-24"
+                     data-elementor-settings="[]">
+                    <div class="elementor-inner">
+                        <div class="elementor-section-wrap">
+                            <section
+                                    class="elementor-element elementor-element-121fdd4 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section"
+                                    data-id="121fdd4" data-element_type="section">
+                                <div class="elementor-container elementor-column-gap-no">
+                                    <div class="elementor-row">
+                                        <div class="elementor-element elementor-element-757416d elementor-column elementor-col-66 elementor-top-column"
+                                             data-id="757416d" data-element_type="column">
+                                            <div class="elementor-column-wrap  elementor-element-populated">
+                                                <div class="elementor-widget-wrap">
+                                                    <div class="elementor-element elementor-element-7596302 elementor-widget elementor-widget-wl-main-slider"
+                                                         data-id="7596302" data-element_type="widget"
+                                                         data-widget_type="wl-main-slider.default">
+                                                        <div class="elementor-widget-container">
+                                                            <div class="block--latest-tiles">
+                                                                <div class="block-tile main-tile"
+                                                                     style="background-image:url( img/25011-exp-2024-03-compressor-1-889x430.png);">
+                                                                    <div class="block-tile__item">
+                                                                        <h2 class="post-title lg">
+                                                                            <a href="news.html">Child
+                                                                                cruelty and neglect crimes
+                                                                                continue to rise every
+                                                                                year</a>
+                                                                        </h2>
+                                                                        <p>Lorem ipsum dolor sit amet,
+                                                                            consectetur adipiscing elit, sed
+                                                                            do</p>
+                                                                        <a class="cs-btn-flat cs-btn-flat--light"
+                                                                           href="news.html"><span>Read More</span><i
+                                                                                class="icon icon-right-arrow"></i></a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-10749ee elementor-column elementor-col-33 elementor-top-column"
+                                             data-id="10749ee" data-element_type="column">
+                                            <div class="elementor-column-wrap  elementor-element-populated">
+                                                <div class="elementor-widget-wrap">
+                                                    <div class="elementor-element elementor-element-e7131be elementor-widget elementor-widget-wl-main-slider-grid"
+                                                         data-id="e7131be" data-element_type="widget"
+                                                         data-widget_type="wl-main-slider-grid.default">
+                                                        <div class="elementor-widget-container">
+                                                            <div class="block--latest-tiles">
+                                                                <div class="block-tile sub-tiles">
+                                                                    <div class="tile-box"
+                                                                         style="background-image:url( http://wisdom.extracoding.com/wp-content/uploads/sites/4/2020/04/blog-3-889x430.jpg);">
+                                                                        <div class="tile-box-content">
+                                                                            <h2>
+                                                                                <a href="older-people.html">Give
+                                                                                    your love to older people</a></h2>
+                                                                            <a class="cs-btn-flat cs-btn-flat--light cs-btn-flat--sm"
+                                                                               href="older-people.html"><span>Read More</span><i
+                                                                                    class="icon icon-right-arrow"></i></a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="tile-box"
+                                                                         style="background-image:url( http://wisdom.extracoding.com/wp-content/uploads/sites/4/2020/04/blog-1.jpg);">
+                                                                        <div class="tile-box-content">
+                                                                            <h2>
+                                                                                <a href="http://wisdom.extracoding.com/no-one-has-ever-become-poor-by-giving/">No
+                                                                                    one has ever become poor by
+                                                                                    giving</a></h2>
+                                                                            <a class="cs-btn-flat cs-btn-flat--light cs-btn-flat--sm"
+                                                                               href="http://wisdom.extracoding.com/no-one-has-ever-become-poor-by-giving/"><span>Read More</span><i
+                                                                                    class="icon icon-right-arrow"></i></a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section
+                                    class="elementor-element elementor-element-1e3812b elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section"
+                                    data-id="1e3812b" data-element_type="section">
+                                <div class="elementor-container elementor-column-gap-no">
+                                    <div class="elementor-row">
+                                        <div class="elementor-element elementor-element-e7c7f92 elementor-column elementor-col-100 elementor-top-column"
+                                             data-id="e7c7f92" data-element_type="column">
+                                            <div class="elementor-column-wrap  elementor-element-populated">
+                                                <div class="elementor-widget-wrap">
+                                                    <div class="elementor-element elementor-element-46d3dfb elementor-widget elementor-widget-wl-notification-bar"
+                                                         data-id="46d3dfb" data-element_type="widget"
+                                                         data-widget_type="wl-notification-bar.default">
+                                                        <div class="elementor-widget-container">
+                                                            <div class="info-bar">
+                                                                <div class="info-bar__left">
+                                                                    <span class="info-icon"></span>
+                                                                </div>
+                                                                <div class="info-bar__content">
+                                                                    <div class="info-bar-slider">
+                                                                        <div class="item">
+                                                                            <span>Ho To (Do) ANNOUNCEMENTS Without Leaving Your Office(House).</span>
+                                                                        </div>
+                                                                        <div class="item">
+                                                                            <span>Are You Embarrassed By Your ANNOUNCEMENTS Skills? Here's What To Do</span>
+                                                                        </div>
+                                                                        <div class="item">
+                                                                            <span>The Truth Is You Are Not The Only Person Concerned About ANNOUNCEMENTS</span>
+                                                                        </div>
+                                                                        <div class="item">
+                                                                            <span>Now You Can Have The ANNOUNCEMENTS Of Your Dreams – Cheaper/Faster Than You Ever Imagined</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="info-bar__right">
+                                                                    <button class="step-arrow up"><i
+                                                                            class="icon icon-up-arrow"></i></button>
+                                                                    <button class="step-arrow down"><i
+                                                                            class="icon icon-down-arrow"></i></button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section
+                                    class="elementor-element elementor-element-5e47786 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section"
+                                    data-id="5e47786" data-element_type="section">
+                                <div class="elementor-container elementor-column-gap-default">
+                                    <div class="elementor-row">
+                                        <div class="elementor-element elementor-element-7725c05 elementor-column elementor-col-33 elementor-top-column"
+                                             data-id="7725c05" data-element_type="column">
+                                            <div class="elementor-column-wrap  elementor-element-populated">
+                                                <div class="elementor-widget-wrap">
+                                                    <div class="elementor-element elementor-element-7955342 elementor-widget elementor-widget-wl-volunteers"
+                                                         data-id="7955342" data-element_type="widget"
+                                                         data-widget_type="wl-volunteers.default">
+                                                        <div class="elementor-widget-container">
+                                                            <div class="block block--sidebar block--follow-volunteers">
+                                                                <div class="block-header">
+                                                                    <h2 class="block-title">Top Volunteers</h2>
+                                                                </div>
+
+                                                                <div class="block-content">
+
+                                                                    <div class="card card-volunteer">
+                                                                        <div class="row no-gutters">
+                                                                            <div class="col-4 col-md-4">
+                                                                                <img width="417" height="417"
+                                                                                     src="img/volunteer-2.jpg"
+                                                                                     class="img-fluid rounded-circle"
+                                                                                     alt="Lovey Susan"
+                                                                                     srcset="img/volunteer-2.jpg 417w, img/volunteer-2-300x300.jpg 300w, img/volunteer-2-150x150.jpg 150w, img/volunteer-2-70x69.jpg 70w"
+                                                                                     sizes="(max-width: 417px) 100vw, 417px"
+                                                                                     pagespeed_url_hash="3162138963"
+                                                                                     onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/>
+                                                                            </div>
+                                                                            <div class="col-8 col-md-8">
+                                                                                <div class="card-body">
+                                                                                    <h5 class="card-title">Lovey
+                                                                                        Susan</h5>
+                                                                                    <p class="card-text">Volunteers
+                                                                                        Manager</p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="card card-volunteer">
+                                                                        <div class="row no-gutters">
+                                                                            <div class="col-4 col-md-4">
+                                                                                <img width="417" height="417"
+                                                                                     src="img/volunteer-4.jpg"
+                                                                                     class="img-fluid rounded-circle"
+                                                                                     alt="Ellis Cell"
+                                                                                     srcset="img/volunteer-4.jpg 417w, img/volunteer-4-300x300.jpg 300w, img/volunteer-4-150x150.jpg 150w, img/volunteer-4-70x69.jpg 70w"
+                                                                                     sizes="(max-width: 417px) 100vw, 417px"
+                                                                                     pagespeed_url_hash="3751138805"
+                                                                                     onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/>
+                                                                            </div>
+                                                                            <div class="col-8 col-md-8">
+                                                                                <div class="card-body">
+                                                                                    <h5 class="card-title">Ellis
+                                                                                        Cell</h5>
+                                                                                    <p class="card-text">Supervisor of
+                                                                                        Volunteers</p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="card card-volunteer">
+                                                                        <div class="row no-gutters">
+                                                                            <div class="col-4 col-md-4">
+                                                                                <img width="417" height="417"
+                                                                                     src="img/volunteer-3.jpg"
+                                                                                     class="img-fluid rounded-circle"
+                                                                                     alt="Launch Ellis"
+                                                                                     srcset="img/volunteer-3.jpg 417w, img/volunteer-3-300x300.jpg 300w, img/volunteer-3-150x150.jpg 150w, img/volunteer-3-70x69.jpg 70w"
+                                                                                     sizes="(max-width: 417px) 100vw, 417px"
+                                                                                     pagespeed_url_hash="3456638884"
+                                                                                     onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/>
+                                                                            </div>
+                                                                            <div class="col-8 col-md-8">
+                                                                                <div class="card-body">
+                                                                                    <h5 class="card-title">Launch
+                                                                                        Ellis</h5>
+                                                                                    <p class="card-text">Director of
+                                                                                        Volunteers</p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="card card-volunteer">
+                                                                        <div class="row no-gutters">
+                                                                            <div class="col-4 col-md-4">
+                                                                                <img width="417" height="417"
+                                                                                     src="img/volunteer-1.jpg"
+                                                                                     class="img-fluid rounded-circle"
+                                                                                     alt="Rugrat Sid"
+                                                                                     srcset="img/volunteer-1.jpg 417w, img/volunteer-1-300x300.jpg 300w, img/volunteer-1-150x150.jpg 150w, img/volunteer-1-70x69.jpg 70w"
+                                                                                     sizes="(max-width: 417px) 100vw, 417px"
+                                                                                     pagespeed_url_hash="2867639042"
+                                                                                     onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/>
+                                                                            </div>
+                                                                            <div class="col-8 col-md-8">
+                                                                                <div class="card-body">
+                                                                                    <h5 class="card-title">Rugrat
+                                                                                        Sid</h5>
+                                                                                    <p class="card-text">Resource
+                                                                                        Manager</p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-fea273a elementor-column elementor-col-33 elementor-top-column"
+                                             data-id="fea273a" data-element_type="column">
+                                            <div class="elementor-column-wrap  elementor-element-populated">
+                                                <div class="elementor-widget-wrap">
+                                                    <div class="elementor-element elementor-element-63dac9b elementor-widget elementor-widget-wl-post-tab"
+                                                         data-id="63dac9b" data-element_type="widget"
+                                                         data-widget_type="wl-post-tab.default">
+                                                        <div class="elementor-widget-container">
+                                                            <div class="block block--main">
+                                                                <ul class="nav nav-tabs tabs" id="mainTabs"
+                                                                    role="tablist">
+                                                                    <li class="nav-item">
+                                                                        <a class="nav-link active" id="news-feed-tab"
+                                                                           data-toggle="tab" href="#news-feed"
+                                                                           role="tab" aria-selected="true">News Feed</a>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <a class="nav-link " id="videos-tab"
+                                                                           data-toggle="tab" href="#videos" role="tab"
+                                                                           aria-selected="true">Videos</a>
+                                                                    </li>
+                                                                </ul>
+
+                                                                <div class="tab-content" id="myTabContent">
+                                                                    <div class="tab-pane fade show active"
+                                                                         id="news-feed" role="tabpanel"
+                                                                         aria-labelledby="news-feed-tab">
+
+                                                                        <div class="featured-post"
+                                                                             style="background-image: url('http://wisdom.extracoding.com/wp-content/uploads/sites/4/2020/04/blog-3-582x270.jpg');">
+                                                                            <a href="older-people.html"
+                                                                               class="featured-post__content">
+                                                                                <h2>Give your love to older people</h2>
+                                                                                <div class="post-info">
+                                                                                    <div class="author"><i
+                                                                                            class="icon icon-avatar"></i>
+                                                                                        <span>Posted by: Asif</span>
+                                                                                    </div>
+                                                                                    <div class="date"><i
+                                                                                            class="icon icon-calendar"></i>
+                                                                                        <span>April 3, 2020</span></div>
+                                                                                </div>
+                                                                                <p>Lorem ipsum dolor sit amet,
+                                                                                    consectetur adipiscing elit, sed
+                                                                                    do</p>
+                                                                            </a>
+                                                                        </div>
+                                                                        <div class="related-posts">
+                                                                            <div class="card card-related-post">
+                                                                                <div class="row no-gutters">
+                                                                                    <div class="col-md-4">
+                                                                                        <a href="http://wisdom.extracoding.com/no-one-has-ever-become-poor-by-giving/"><img
+                                                                                                width="175" height="117"
+                                                                                                src="img/blog-1-175x117.jpg"
+                                                                                                class="img-fluid wp-post-image"
+                                                                                                alt=""
+                                                                                                srcset="img/blog-1-175x117.jpg 175w, img/blog-1-300x200.jpg 300w, img/blog-1.jpg 626w"
+                                                                                                sizes="(max-width: 175px) 100vw, 175px"
+                                                                                                pagespeed_url_hash="2628242210"
+                                                                                                onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/></a>
+                                                                                    </div>
+                                                                                    <div class="col-md-8">
+                                                                                        <div class="card-body">
+                                                                                            <h5 class="card-title"><a
+                                                                                                    href="http://wisdom.extracoding.com/no-one-has-ever-become-poor-by-giving/">No
+                                                                                                one has ever become poor
+                                                                                                by giving</a></h5>
+                                                                                            <div class="post-info">
+                                                                                                <div class="author"><i
+                                                                                                        class="icon icon-avatar"></i>
+                                                                                                    <span>Posted by: Asif</span>
+                                                                                                </div>
+                                                                                                <div class="date"><i
+                                                                                                        class="icon icon-calendar"></i>
+                                                                                                    <span>April 3, 2020</span>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <p class="card-text">Lorem
+                                                                                                ipsum dolor sit amet,
+                                                                                                consectetur adipiscing
+                                                                                                elit, sed do</p>
+                                                                                            <a class="cs-btn-flat cs-btn-flat--sm cs-btn-flat--dark"
+                                                                                               href="http://wisdom.extracoding.com/no-one-has-ever-become-poor-by-giving/"><span>Read More</span><i
+                                                                                                    class="icon icon-right-arrow"></i></a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="card card-related-post">
+                                                                                <div class="row no-gutters">
+                                                                                    <div class="col-md-4">
+                                                                                        <a href="http://wisdom.extracoding.com/disability-is-not-the-end-of-your-career/"><img
+                                                                                                width="175" height="117"
+                                                                                                src="img/blog-2-175x117.jpg"
+                                                                                                class="img-fluid wp-post-image"
+                                                                                                alt=""
+                                                                                                srcset="img/blog-2-175x117 (1).jpg 175w, img/blog-2-300x200.jpg 300w, img/blog-2.jpg 626w"
+                                                                                                sizes="(max-width: 175px) 100vw, 175px"
+                                                                                                pagespeed_url_hash="3712764179"
+                                                                                                onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/></a>
+                                                                                    </div>
+                                                                                    <div class="col-md-8">
+                                                                                        <div class="card-body">
+                                                                                            <h5 class="card-title"><a
+                                                                                                    href="http://wisdom.extracoding.com/disability-is-not-the-end-of-your-career/">Disability
+                                                                                                is not the end of your
+                                                                                                career</a></h5>
+                                                                                            <div class="post-info">
+                                                                                                <div class="author"><i
+                                                                                                        class="icon icon-avatar"></i>
+                                                                                                    <span>Posted by: Asif</span>
+                                                                                                </div>
+                                                                                                <div class="date"><i
+                                                                                                        class="icon icon-calendar"></i>
+                                                                                                    <span>April 3, 2020</span>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <p class="card-text">Lorem
+                                                                                                ipsum dolor sit amet,
+                                                                                                consectetur adipiscing
+                                                                                                elit, sed do</p>
+                                                                                            <a class="cs-btn-flat cs-btn-flat--sm cs-btn-flat--dark"
+                                                                                               href="http://wisdom.extracoding.com/disability-is-not-the-end-of-your-career/"><span>Read More</span><i
+                                                                                                    class="icon icon-right-arrow"></i></a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="card card-related-post">
+                                                                                <div class="row no-gutters">
+                                                                                    <div class="col-md-4">
+                                                                                        <a href="http://wisdom.extracoding.com/proof-that-ngo-blogs-is-exactly-what-you-are-looking-for/"><img
+                                                                                                width="175" height="117"
+                                                                                                src="img/heart-1192662_1280-compressor-175x117.jpg"
+                                                                                                class="img-fluid wp-post-image"
+                                                                                                alt=""
+                                                                                                srcset="img/heart-1192662_1280-compressor-175x117 (1).jpg 175w, img/heart-1192662_1280-compressor-300x200.jpg 300w, img/heart-1192662_1280-compressor-1024x682.jpg 1024w, img/heart-1192662_1280-compressor-768x512.jpg 768w, img/heart-1192662_1280-compressor.jpg 1280w"
+                                                                                                sizes="(max-width: 175px) 100vw, 175px"
+                                                                                                pagespeed_url_hash="2456400311"
+                                                                                                onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/></a>
+                                                                                    </div>
+                                                                                    <div class="col-md-8">
+                                                                                        <div class="card-body">
+                                                                                            <h5 class="card-title"><a
+                                                                                                    href="http://wisdom.extracoding.com/proof-that-ngo-blogs-is-exactly-what-you-are-looking-for/">Proof
+                                                                                                That NGO BLOGS Is
+                                                                                                Exactly What You Are
+                                                                                                Looking&hellip;</a></h5>
+                                                                                            <div class="post-info">
+                                                                                                <div class="author"><i
+                                                                                                        class="icon icon-avatar"></i>
+                                                                                                    <span>Posted by: Extracoding</span>
+                                                                                                </div>
+                                                                                                <div class="date"><i
+                                                                                                        class="icon icon-calendar"></i>
+                                                                                                    <span>March 18, 2020</span>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <p class="card-text">Lorem
+                                                                                                ipsum dolor sit amet,
+                                                                                                consectetur adipiscing
+                                                                                                elit, sed do</p>
+                                                                                            <a class="cs-btn-flat cs-btn-flat--sm cs-btn-flat--dark"
+                                                                                               href="http://wisdom.extracoding.com/proof-that-ngo-blogs-is-exactly-what-you-are-looking-for/"><span>Read More</span><i
+                                                                                                    class="icon icon-right-arrow"></i></a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="tab-pane fade" id="videos"
+                                                                         role="tabpanel" aria-labelledby="videos-tab">
+
+                                                                        <iframe title="African village Bödjögö North Ivory Coast"
+                                                                                width="640" height="360"
+                                                                                src="https://www.youtube.com/embed/zlIfDBx_bq8?feature=oembed"
+                                                                                frameborder="0"
+                                                                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                                                                allowfullscreen></iframe>
+                                                                        <div class="related-posts">
+                                                                            <div class="card card-related-post">
+                                                                                <div class="row no-gutters">
+                                                                                    <div class="col-md-4">
+                                                                                        <a href="http://wisdom.extracoding.com/no-one-has-ever-become-poor-by-giving/">
+                                                                                            <div class="play-icon"></div>
+                                                                                            <img width="175"
+                                                                                                 height="117"
+                                                                                                 src="img/blog-1-175x117.jpg"
+                                                                                                 class="img-fluid wp-post-image"
+                                                                                                 alt=""
+                                                                                                 srcset="img/blog-1-175x117.jpg 175w, img/blog-1-300x200.jpg 300w, img/blog-1.jpg 626w"
+                                                                                                 sizes="(max-width: 175px) 100vw, 175px"
+                                                                                                 pagespeed_url_hash="2628242210"
+                                                                                                 onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div class="col-md-8">
+                                                                                        <div class="card-body">
+                                                                                            <h5 class="card-title"><a
+                                                                                                    href="http://wisdom.extracoding.com/no-one-has-ever-become-poor-by-giving/">No
+                                                                                                one has ever become poor
+                                                                                                by giving</a></h5>
+                                                                                            <div class="post-info">
+                                                                                                <div class="author"><i
+                                                                                                        class="icon icon-avatar"></i>
+                                                                                                    <span>Posted by: Asif</span>
+                                                                                                </div>
+                                                                                                <div class="date"><i
+                                                                                                        class="icon icon-calendar"></i>
+                                                                                                    <span>April 3, 2020</span>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <p class="card-text">Lorem
+                                                                                                ipsum dolor sit amet,
+                                                                                                consectetur adipiscing
+                                                                                                elit, sed do</p>
+                                                                                            <a class="cs-btn-flat cs-btn-flat--sm cs-btn-flat--dark"
+                                                                                               href="http://wisdom.extracoding.com/no-one-has-ever-become-poor-by-giving/"><span>Read More</span><i
+                                                                                                    class="icon icon-right-arrow"></i></a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="card card-related-post">
+                                                                                <div class="row no-gutters">
+                                                                                    <div class="col-md-4">
+                                                                                        <a href="http://wisdom.extracoding.com/disability-is-not-the-end-of-your-career/">
+                                                                                            <div class="play-icon"></div>
+                                                                                            <img width="175"
+                                                                                                 height="117"
+                                                                                                 src="img/blog-2-175x117.jpg"
+                                                                                                 class="img-fluid wp-post-image"
+                                                                                                 alt=""
+                                                                                                 srcset="img/blog-2-175x117.jpg 175w, img/blog-2-300x200.jpg 300w, img/blog-2.jpg 626w"
+                                                                                                 sizes="(max-width: 175px) 100vw, 175px"
+                                                                                                 pagespeed_url_hash="3712764179"
+                                                                                                 onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div class="col-md-8">
+                                                                                        <div class="card-body">
+                                                                                            <h5 class="card-title"><a
+                                                                                                    href="http://wisdom.extracoding.com/disability-is-not-the-end-of-your-career/">Disability
+                                                                                                is not the end of your
+                                                                                                career</a></h5>
+                                                                                            <div class="post-info">
+                                                                                                <div class="author"><i
+                                                                                                        class="icon icon-avatar"></i>
+                                                                                                    <span>Posted by: Asif</span>
+                                                                                                </div>
+                                                                                                <div class="date"><i
+                                                                                                        class="icon icon-calendar"></i>
+                                                                                                    <span>April 3, 2020</span>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <p class="card-text">Lorem
+                                                                                                ipsum dolor sit amet,
+                                                                                                consectetur adipiscing
+                                                                                                elit, sed do</p>
+                                                                                            <a class="cs-btn-flat cs-btn-flat--sm cs-btn-flat--dark"
+                                                                                               href="http://wisdom.extracoding.com/disability-is-not-the-end-of-your-career/"><span>Read More</span><i
+                                                                                                    class="icon icon-right-arrow"></i></a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="card card-related-post">
+                                                                                <div class="row no-gutters">
+                                                                                    <div class="col-md-4">
+                                                                                        <a href="http://wisdom.extracoding.com/proof-that-ngo-blogs-is-exactly-what-you-are-looking-for/">
+                                                                                            <div class="play-icon"></div>
+                                                                                            <img width="175"
+                                                                                                 height="117"
+                                                                                                 src="img/heart-1192662_1280-compressor-175x117%20(2).jpg"
+                                                                                                 class="img-fluid wp-post-image"
+                                                                                                 alt=""
+                                                                                                 srcset="img/heart-1192662_1280-compressor-175x117.jpg 175w, img/heart-1192662_1280-compressor-300x200.jpg 300w, img/heart-1192662_1280-compressor-1024x682.jpg 1024w, img/heart-1192662_1280-compressor-768x512.jpg 768w, img/heart-1192662_1280-compressor.jpg 1280w"
+                                                                                                 sizes="(max-width: 175px) 100vw, 175px"
+                                                                                                 pagespeed_url_hash="2456400311"
+                                                                                                 onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                    <div class="col-md-8">
+                                                                                        <div class="card-body">
+                                                                                            <h5 class="card-title"><a
+                                                                                                    href="http://wisdom.extracoding.com/proof-that-ngo-blogs-is-exactly-what-you-are-looking-for/">Proof
+                                                                                                That NGO BLOGS Is
+                                                                                                Exactly What You Are
+                                                                                                Looking&hellip;</a></h5>
+                                                                                            <div class="post-info">
+                                                                                                <div class="author"><i
+                                                                                                        class="icon icon-avatar"></i>
+                                                                                                    <span>Posted by: Extracoding</span>
+                                                                                                </div>
+                                                                                                <div class="date"><i
+                                                                                                        class="icon icon-calendar"></i>
+                                                                                                    <span>March 18, 2020</span>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <p class="card-text">Lorem
+                                                                                                ipsum dolor sit amet,
+                                                                                                consectetur adipiscing
+                                                                                                elit, sed do</p>
+                                                                                            <a class="cs-btn-flat cs-btn-flat--sm cs-btn-flat--dark"
+                                                                                               href="http://wisdom.extracoding.com/proof-that-ngo-blogs-is-exactly-what-you-are-looking-for/"><span>Read More</span><i
+                                                                                                    class="icon icon-right-arrow"></i></a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="elementor-element elementor-element-f7da516 elementor-hidden-tablet elementor-hidden-phone elementor-widget elementor-widget-image"
+                                                         data-id="f7da516" data-element_type="widget"
+                                                         data-widget_type="image.default">
+                                                        <div class="elementor-widget-container">
+                                                            <div class="elementor-image">
+                                                                <img width="586" height="100"
+                                                                     src="img/banner-1.jpg"
+                                                                     class="attachment-full size-full" alt=""
+                                                                     srcset="img/banner-1.jpg 586w, img/banner-1-300x51.jpg 300w, img/banner-1-582x100.jpg 582w"
+                                                                     sizes="(max-width: 586px) 100vw, 586px"
+                                                                     pagespeed_url_hash="622859820"
+                                                                     onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-c12c0a9 elementor-column elementor-col-33 elementor-top-column"
+                                             data-id="c12c0a9" data-element_type="column">
+                                            <div class="elementor-column-wrap  elementor-element-populated">
+                                                <div class="elementor-widget-wrap">
+                                                    <div class="elementor-element elementor-element-63a6f3f elementor-widget elementor-widget-wl-donation-info"
+                                                         data-id="63a6f3f" data-element_type="widget"
+                                                         data-widget_type="wl-donation-info.default">
+                                                        <div class="elementor-widget-container">
+                                                            <div class="block block--sidebar block--helped">
+                                                                <div class="block-header">
+                                                                    <h2 class="block-title">You’ve Helped Raise…</h2>
+                                                                </div>
+                                                                <p class="help-desc">Nisl tincidunt eget nullam non nisi
+                                                                    est sit amet facilisis.</p>
+                                                                <div class="progress">
+                                                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
+                                                                         role="progressbar" style="width: 30%"
+                                                                         aria-valuemin="0" aria-valuemax="25000"></div>
+                                                                </div>
+                                                                <div class="values">
+                                                                    <p class="help-value">Now : <strong>$7500</strong>
+                                                                    </p>
+                                                                    <p class="help-value">Target :
+                                                                        <strong>$25000</strong></p>
+                                                                </div>
+                                                                <form action="https://www.paypal.com/cgi-bin/webscr"
+                                                                      method="post">
+                                                                    <input type="hidden" name="cmd" value="_donations"/>
+                                                                    <input type="hidden" name="upload" value="1"/>
+                                                                    <input type="hidden" name="return"
+                                                                           value="http://wisdom.extracoding.com?action=paid"/>
+                                                                    <input type="hidden" name="cancel_return"
+                                                                           value="http://wisdom.extracoding.com?action=cancel"/>
+                                                                    <input type="hidden" name="notify_url"
+                                                                           value="http://wisdom.extracoding.com?action=notify"/>
+                                                                    <input type="hidden" name="lc" value="GB"/>
+                                                                    <input type="hidden" name="cbt"
+                                                                           value="Return to merchant"/>
+                                                                    <input type="hidden" name="undefined_quantity"
+                                                                           value="0"/>
+                                                                    <input type="hidden" name="no_shipping" value="1"/>
+                                                                    <input type="hidden" name="no_note" value="1"/>
+                                                                    <input type="hidden" name="weight_unit"
+                                                                           value="kgs"/>
+                                                                    <input type="hidden" name="business" value=""/>
+                                                                    <input type="hidden" name="item_name"
+                                                                           value="Donation"/>
+
+                                                                    <button type="submit"
+                                                                            class="cs-btn cs-btn--full-width donate-btn">
+                                                                        Donate Now
+                                                                    </button>
+                                                                </form>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="elementor-element elementor-element-1c7ac61 elementor-widget elementor-widget-wl-blog-tweets"
+                                                         data-id="1c7ac61" data-element_type="widget"
+                                                         data-widget_type="wl-blog-tweets.default">
+                                                        <div class="elementor-widget-container">
+                                                            <div class="block block--sidebar block--blogtweet">
+                                                                <ul class="nav nav-tabs tabs" id="blogsTabs"
+                                                                    role="tablist">
+                                                                    <li class="nav-item">
+                                                                        <a class="nav-link active" id="blogs-tab"
+                                                                           data-toggle="tab" href="#blogs" role="tab"
+                                                                           aria-controls="blogs" aria-selected="true">Blogs</a>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <a class="nav-link" id="tweets-tab"
+                                                                           data-toggle="tab" href="#tweets" role="tab"
+                                                                           aria-controls="tweets" aria-selected="false">Tweets</a>
+                                                                    </li>
+                                                                </ul>
+                                                                <div class="tab-content" id="blogsTabsContent">
+                                                                    <!-- blogs tab -->
+                                                                    <div class="tab-pane fade show active" id="blogs"
+                                                                         role="tabpanel" aria-labelledby="blogs-tab">
+                                                                        <div class="card card--blog-post">
+                                                                            <div class="row no-gutters">
+                                                                                <div class="col-4 col-md-4">
+                                                                                    <a href="older-people.html"><img
+                                                                                            width="70" height="50"
+                                                                                            src="img/blog-3-70x50%20(1).jpg"
+                                                                                            class="attachment-wl-blog-tweets-thumb size-wl-blog-tweets-thumb wp-post-image"
+                                                                                            alt=""
+                                                                                            srcset="img/blog-3-70x50.jpg 70w, img/blog-3-390x280.jpg 390w"
+                                                                                            sizes="(max-width: 70px) 100vw, 70px"
+                                                                                            pagespeed_url_hash="2871885500"
+                                                                                            onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/></a>
+                                                                                </div>
+                                                                                <div class="col-8 col-md-8">
+                                                                                    <div class="card-body">
+                                                                                        <a href="older-people.html">
+                                                                                            <h5 class="card-title">Give
+                                                                                                your love to</h5>
+                                                                                            <p class="card-text">April
+                                                                                                3, 2020, 0 Comments</p>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card card--blog-post">
+                                                                            <div class="row no-gutters">
+                                                                                <div class="col-4 col-md-4">
+                                                                                    <a href="http://wisdom.extracoding.com/no-one-has-ever-become-poor-by-giving/"><img
+                                                                                            width="70" height="50"
+                                                                                            src="img/blog-1-70x50.jpg"
+                                                                                            class="attachment-wl-blog-tweets-thumb size-wl-blog-tweets-thumb wp-post-image"
+                                                                                            alt=""
+                                                                                            srcset="img/blog-1-70x50.jpg 70w, img/blog-1-390x280.jpg 390w"
+                                                                                            sizes="(max-width: 70px) 100vw, 70px"
+                                                                                            pagespeed_url_hash="3716436842"
+                                                                                            onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/></a>
+                                                                                </div>
+                                                                                <div class="col-8 col-md-8">
+                                                                                    <div class="card-body">
+                                                                                        <a href="http://wisdom.extracoding.com/no-one-has-ever-become-poor-by-giving/">
+                                                                                            <h5 class="card-title">No
+                                                                                                one has ever</h5>
+                                                                                            <p class="card-text">April
+                                                                                                3, 2020, 0 Comments</p>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card card--blog-post">
+                                                                            <div class="row no-gutters">
+                                                                                <div class="col-4 col-md-4">
+                                                                                    <a href="http://wisdom.extracoding.com/disability-is-not-the-end-of-your-career/"><img
+                                                                                            width="70" height="50"
+                                                                                            src="img/blog-2-70x50.jpg"
+                                                                                            class="attachment-wl-blog-tweets-thumb size-wl-blog-tweets-thumb wp-post-image"
+                                                                                            alt=""
+                                                                                            srcset="img/blog-2-70x50.jpg 70w, img/blog-2-390x280.jpg 390w"
+                                                                                            sizes="(max-width: 70px) 100vw, 70px"
+                                                                                            pagespeed_url_hash="1146677523"
+                                                                                            onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/></a>
+                                                                                </div>
+                                                                                <div class="col-8 col-md-8">
+                                                                                    <div class="card-body">
+                                                                                        <a href="http://wisdom.extracoding.com/disability-is-not-the-end-of-your-career/">
+                                                                                            <h5 class="card-title">
+                                                                                                Disability is not
+                                                                                                the</h5>
+                                                                                            <p class="card-text">April
+                                                                                                3, 2020, 0 Comments</p>
+                                                                                        </a>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!-- tweets tab -->
+                                                                    <div class="tab-pane fade" id="tweets"
+                                                                         role="tabpanel" aria-labelledby="tweets-tab">
+                                                                        <div class="card card--blog-post">
+                                                                            <div class="card-body">
+                                                                                <div id="tweets">WordPress 5.5 Release
+                                                                                    Candidate <a
+                                                                                            href="https://t.co/sbndKwUWco">https://t.co/sbndKwUWco</a>
+                                                                                </div>
+                                                                                <p class="card-text"><a
+                                                                                        href="http://twitter.com/#!/WordPress/status/1288189643259871234"
+                                                                                        title="2020/07/28 19:08:39"
+                                                                                        target="_blank" rel="nofollow">16
+                                                                                    hours ago</a></p>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card card--blog-post">
+                                                                            <div class="card-body">
+                                                                                <div id="tweets">WordPress 5.5 Beta 4 <a
+                                                                                        href="https://t.co/FAK82C7F1Z">https://t.co/FAK82C7F1Z</a>
+                                                                                </div>
+                                                                                <p class="card-text"><a
+                                                                                        href="http://twitter.com/#!/WordPress/status/1287854602218504194"
+                                                                                        title="2020/07/27 20:57:19"
+                                                                                        target="_blank" rel="nofollow">2
+                                                                                    days ago</a></p>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="card card--blog-post">
+                                                                            <div class="card-body">
+                                                                                <div id="tweets">WordPress 5.5 Beta 3 <a
+                                                                                        href="https://t.co/74ju7D30J6">https://t.co/74ju7D30J6</a>
+                                                                                </div>
+                                                                                <p class="card-text"><a
+                                                                                        href="http://twitter.com/#!/WordPress/status/1285633625246126083"
+                                                                                        title="2020/07/21 17:51:56"
+                                                                                        target="_blank" rel="nofollow">1
+                                                                                    week ago</a></p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="elementor-element elementor-element-e8f8e9e elementor-hidden-tablet elementor-hidden-phone elementor-widget elementor-widget-image"
+                                                         data-id="e8f8e9e" data-element_type="widget"
+                                                         data-widget_type="image.default">
+                                                        <div class="elementor-widget-container">
+                                                            <div class="elementor-image">
+                                                                <img width="278" height="327"
+                                                                     src="img/banner-2-olaoeauqu2gyfctqau6mk5bvl1iikuovcy6tipu3ie.jpg"
+                                                                     class="attachment-full size-full" alt=""
+                                                                     srcset="img/banner-2-olaoeauqu2gyfctqau6mk5bvl1iikuovcy6tipu3ie.jpg 278w, img/banner-2-olaoeauqu2gyfctqau6mk5bvl1iikuovcy6tipu3ie-255x300.jpg 255w"
+                                                                     sizes="(max-width: 278px) 100vw, 278px"
+                                                                     pagespeed_url_hash="1231752010"
+                                                                     onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section
+                                    class="elementor-element elementor-element-a6f015a elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section"
+                                    data-id="a6f015a" data-element_type="section">
+                                <div class="elementor-container elementor-column-gap-no">
+                                    <div class="elementor-row">
+                                        <div class="elementor-element elementor-element-f41d1b9 elementor-column elementor-col-100 elementor-top-column"
+                                             data-id="f41d1b9" data-element_type="column">
+                                            <div class="elementor-column-wrap  elementor-element-populated">
+                                                <div class="elementor-widget-wrap">
+                                                    <div class="elementor-element elementor-element-bd747fd elementor-widget elementor-widget-wl-sponsors"
+                                                         data-id="bd747fd" data-element_type="widget"
+                                                         data-widget_type="wl-sponsors.default">
+                                                        <div class="elementor-widget-container">
+                                                            <div class="block block--sponsors">
+                                                                <div class="block-header">
+                                                                    <h2 class="block-title">Our Sponsors</h2>
+                                                                </div>
+
+                                                                <div class="block-content">
+                                                                    <div class="sponsors"
+                                                                         data-controls="{&quot;auto_nav_slide&quot;:&quot;yes&quot;}">
+                                                                        <div class="sponsors-slider">
+                                                                            <div class="item">
+                                                                                <a href="https://themeforest.net/">
+                                                                                    <img width="148" height="100"
+                                                                                         src="http://wisdom.extracoding.com/wp-content/uploads/sites/4/2020/01/1.jpg"
+                                                                                         class="img-fluid"
+                                                                                         alt="ThemeForest"
+                                                                                         pagespeed_url_hash="3535220677"
+                                                                                         onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/>
+                                                                                </a>
+                                                                            </div>
+                                                                            <div class="item">
+                                                                                <a href="http://wisdom.extracoding.com/">
+                                                                                    <img width="148" height="100"
+                                                                                         src="http://wisdom.extracoding.com/wp-content/uploads/sites/4/2020/01/5.jpg"
+                                                                                         class="img-fluid" alt="Envato"
+                                                                                         pagespeed_url_hash="418253065"
+                                                                                         onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/>
+                                                                                </a>
+                                                                            </div>
+                                                                            <div class="item">
+                                                                                <a href="http://wisdom.extracoding.com/">
+                                                                                    <img width="148" height="100"
+                                                                                         src="http://wisdom.extracoding.com/wp-content/uploads/sites/4/2020/01/6.jpg"
+                                                                                         class="img-fluid"
+                                                                                         alt="CodeCanyon"
+                                                                                         pagespeed_url_hash="712752986"
+                                                                                         onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/>
+                                                                                </a>
+                                                                            </div>
+                                                                            <div class="item">
+                                                                                <a href="http://wisdom.extracoding.com/">
+                                                                                    <img width="148" height="100"
+                                                                                         src="http://wisdom.extracoding.com/wp-content/uploads/sites/4/2020/01/3.jpg"
+                                                                                         class="img-fluid"
+                                                                                         alt="GraphicRiver"
+                                                                                         pagespeed_url_hash="4124220519"
+                                                                                         onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/>
+                                                                                </a>
+                                                                            </div>
+                                                                            <div class="item">
+                                                                                <a href="http://wisdom.extracoding.com/">
+                                                                                    <img width="148" height="100"
+                                                                                         src="http://wisdom.extracoding.com/wp-content/uploads/sites/4/2020/01/4.jpg"
+                                                                                         class="img-fluid"
+                                                                                         alt="AudioJungle"
+                                                                                         pagespeed_url_hash="123753144"
+                                                                                         onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/>
+                                                                                </a>
+                                                                            </div>
+                                                                            <div class="item">
+                                                                                <a href="http://wisdom.extracoding.com/">
+                                                                                    <img width="148" height="100"
+                                                                                         src="http://wisdom.extracoding.com/wp-content/uploads/sites/4/2020/01/2.jpg"
+                                                                                         class="img-fluid"
+                                                                                         alt="PhotoDune"
+                                                                                         pagespeed_url_hash="3829720598"
+                                                                                         onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/>
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="step-arrows">
+                                                                            <button class="prev"><i
+                                                                                    class="icon icon-prev-arrow"></i>
+                                                                            </button>
+                                                                            <button class="next"><i
+                                                                                    class="icon icon-next-arrow"></i>
+                                                                            </button>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -413,14 +1399,26 @@
                     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
                         <div id="text-8" class="widget widget_text">
                             <div class="textwidget"><p><img class="alignnone size-medium wp-image-1901"
-                                                            src="img/logo.png"
-                                                            alt="Logo" width="300" height="82"/></p>
+                                                            src="http://wisdom.extracoding.com/wp-content/uploads/sites/4/2020/03/logo.png"
+                                                            alt="Logo" width="300" height="82"
+                                                            pagespeed_url_hash="139194659"
+                                                            onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/>
+                            </p>
                                 <p>Wisdom of life, an NGO WordPress theme with 2.5k+ sales and advanced features
                                     available for purchase at</p>
                                 <p><a class="buy-now-btn"
                                       href="https://themeforest.net/item/wisdom-of-life-ngo-and-charity-theme/1778657?s_rank=15">Buy
                                     Now</a></p>
                             </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+                        <div id="wl_contact_widget-2" class="widget contact-us"><h4 class="footer-title">Contact Us</h4>
+                            <address>Theme Bazaar
+                                1234 Lorem ipsum, Dolor sit amet elite, City name - 43680
+                            </address>
+                            <p>Fax-+1 234 564 7894</p>
+                            <p>Email- <a href="info@extracoding.com">info@extracoding.com</a></p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
@@ -441,33 +1439,17 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-                        <div id="wl_contact_widget-2" class="widget contact-us"><h4 class="footer-title">Contact Us</h4>
-                            <address>Theme Bazaar
-                                1234 Lorem ipsum, Dolor sit amet elite, City name - 43680
-                            </address>
-                            <p>Fax-+1 234 564 7894</p>
-                            <p>Email- <a href="info@extracoding.com">info@extracoding.com</a></p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
                         <div id="text-7" class="widget widget_text"><h4 class="footer-title">Newsletter</h4>
                             <div class="textwidget">
                                 <script>(function () {
                                     window.mc4wp = window.mc4wp || {
-                                        listeners: [],
-                                        forms: {
+                                        listeners: [], forms: {
                                             on: function (evt, cb) {
-                                                window.mc4wp.listeners.push(
-                                                    {
-                                                        event: evt,
-                                                        callback: cb
-                                                    }
-                                                );
+                                                window.mc4wp.listeners.push({event: evt, callback: cb});
                                             }
                                         }
                                     }
-                                })();
-                                </script>
+                                })();</script>
                                 <!-- Mailchimp for WordPress v4.7.5 - https://wordpress.org/plugins/mailchimp-for-wp/ -->
                                 <form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-155" method="post" data-id="155"
                                       data-name="Wisdom Of Life">
@@ -478,7 +1460,7 @@
                                     <label style="display: none !important;">Leave this field empty if you're human:
                                         <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1"
                                                autocomplete="off"/></label><input type="hidden" name="_mc4wp_timestamp"
-                                                                                  value="1596026898"/><input
+                                                                                  value="1596021783"/><input
                                         type="hidden" name="_mc4wp_form_id" value="155"/><input type="hidden"
                                                                                                 name="_mc4wp_form_element_id"
                                                                                                 value="mc4wp-form-1"/>
@@ -511,22 +1493,20 @@
         }
     }
 })();</script>
-<script type='text/javascript'>
-    /* <![CDATA[ */
-    var wpcf7 = {
-        "apiSettings": {
-            "root": "http:\/\/wisdom.extracoding.com\/wp-json\/contact-form-7\/v1",
-            "namespace": "contact-form-7\/v1"
-        }
-    };
-    /* ]]> */
-</script>
+<script type='text/javascript'>//<![CDATA[
+var wpcf7 = {
+    "apiSettings": {
+        "root": "http:\/\/wisdom.extracoding.com\/wp-json\/contact-form-7\/v1",
+        "namespace": "contact-form-7\/v1"
+    }
+};
+//]]></script>
 <script type='text/javascript'
         src='js/scripts.js'></script>
 <script type='text/javascript'
         src='js/slick.min.js'></script>
 <script type='text/javascript'
-        src='js/scripts.js'></script>
+        src='js/scripts2.js'></script>
 <script type='text/javascript'
         src='js/popper.min.js'></script>
 <script type='text/javascript'
@@ -536,6 +1516,57 @@
 <script type='text/javascript' src='js/wp-embed.min.js'></script>
 <script type='text/javascript'
         src='js/forms.min.js'></script>
+<script type='text/javascript'
+        src='js/frontend-modules.min.js'></script>
+<script type='text/javascript'
+        src='js/position.min.js'></script>
+<script type='text/javascript'
+        src='js/dialog.min.js'></script>
+<script type='text/javascript'
+        src='js/waypoints.min.js'></script>
+<script type='text/javascript'
+        src='js/swiper.min.js'></script>
+<script type='text/javascript'
+        src='js/share-link.min.js'></script>
+<script type='text/javascript'>var elementorFrontendConfig = {
+    "environmentMode": {"edit": false, "wpPreview": false},
+    "i18n": {
+        "shareOnFacebook": "Share on Facebook",
+        "shareOnTwitter": "Share on Twitter",
+        "pinIt": "Pin it",
+        "downloadImage": "Download image"
+    },
+    "is_rtl": false,
+    "breakpoints": {"xs": 0, "sm": 480, "md": 768, "lg": 1025, "xl": 1440, "xxl": 1600},
+    "version": "2.9.6",
+    "urls": {"assets": "http:\/\/wisdom.extracoding.com\/wp-content\/plugins\/elementor\/assets\/"},
+    "settings": {
+        "page": [],
+        "general": {
+            "elementor_lightbox_enable_counter": "yes",
+            "elementor_lightbox_enable_fullscreen": "yes",
+            "elementor_lightbox_enable_zoom": "yes",
+            "elementor_lightbox_enable_share": "yes",
+            "elementor_lightbox_title_src": "title",
+            "elementor_lightbox_description_src": "description"
+        },
+        "editorPreferences": []
+    },
+    "post": {
+        "id": 24,
+        "title": "Widom Of Life \u2013 Just another Extracoding site",
+        "excerpt": "",
+        "featuredImage": false
+    }
+};</script>
+<script type='text/javascript'
+        src='http://wisdom.extracoding.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=2.9.6'></script>
+<script type='text/javascript'
+        src='http://wisdom.extracoding.com/wp-content/plugins/wl-elementor/assets/js/isotope.js?ver=5.3.2'></script>
+<script type='text/javascript'
+        src='http://wisdom.extracoding.com/wp-content/plugins/wl-elementor/assets/js/ekko-lightbox.min.js?ver=5.3.2'></script>
+<script type='text/javascript'
+        src='http://wisdom.extracoding.com/wp-content/plugins/wl-elementor/assets/js/elementor-scripts.js?ver=5.3.2'></script>
 
 </body>
 </html>
