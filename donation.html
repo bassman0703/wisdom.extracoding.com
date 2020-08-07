@@ -1,20 +1,24 @@
 <!doctype html>
-<html lang="en-US">
+<html lang="en-US" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="https://gmpg.org/xfn/11">
 
     <title>Page not found &#8211; Widom Of Life</title>
-    <link rel="stylesheet" href="some-css/uikit.css">
-    <link rel="stylesheet" href="some-css/Site.css">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="some-css/style3.css">
     <link rel="stylesheet" href="some-css/donation.css">
+<!--    <link rel="stylesheet" href="some-css/uikit.css">-->
+<!--    <link rel="stylesheet" href="some-css/Site.css">-->
     <link rel='dns-prefetch' href='//fonts.googleapis.com'/>
     <link rel='dns-prefetch' href='//s.w.org'/>
     <link rel="alternate" type="application/rss+xml" title="Widom Of Life &raquo; Feed"
           href="http://wisdom.extracoding.com/feed/"/>
     <link rel="alternate" type="application/rss+xml" title="Widom Of Life &raquo; Comments Feed"
           href="http://wisdom.extracoding.com/comments/feed/"/>
+    <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
     <!-- This site uses the Google Analytics by MonsterInsights plugin v7.10.4 - Using Analytics tracking - https://www.monsterinsights.com/ -->
     <script type="text/javascript" data-cfasync="false">
         var mi_version = '7.10.4';
@@ -347,204 +351,79 @@
             </div>
         </div>
     </div>
-<div class="container ">
-    <div class="bg-white">
-    <div class="uk-container uk-container-center">
-        <div class="donationDiv">
-            <h1 class="uk-text-center uk-margin-top">ონლაინ გადახდა</h1>
-            <form action="/ka/Donations/MakeDonation" method="post" novalidate="novalidate"><input
-                    name="__RequestVerificationToken" type="hidden"
-                    value="4eTE-u4fOGJDXO-V2o78AbBqG1fZjRz11cQg0ewJ87yt7o6JgNPE_4gvltPxszu55SgZGLhIQzPs_2X6jXqwIm4h4gMFSeXUpHOhAWK-FNg1">
-                <div class="uk-grid uk-grid-stack" uk-grid="">
-                    <div class="uk-width-large-1-1 uk-width-medium-1-1 uk-width-small-1-1 uk-first-column">
-                        <div class="switch-field">
-                            <input type="radio" id="switch_left" name="IsMonthly" value="false">
-                            <label for="switch_left">ერთჯერადი</label>
-                            <input type="radio" id="switch_right" name="IsMonthly" value="true" checked="">
-                            <label for="switch_right">რეგულარული</label>
-                        </div>
-                    </div>
-                    <div id="MonthlyInfo" class="uk-width-1-1 uk-grid-margin uk-first-column" style="">
-                        <p>
-                            * უვადო შემოწირულობების მაქსიმალური ხანგრძლივობა არის 5 წელი, თუ გსურთ რეგულარული
-                            შემოწირულობების მართვა დააჭირეთ ღილაკს
-
-                        </p>
-                    </div>
-
-                    <div class="siteForm uk-width-large-1-1 uk-width-medium-1-1 uk-width-small-1-1 uk-grid uk-grid-margin uk-first-column">
-                        <div class="uk-width-large-1-1 uk-width-medium-1-1 uk-width-small-1-1">
-                            <div id="donationAmount"
-                                 class="uk-padding-small uk-width-large-1-3 uk-width-medium-1-2 uk-width-small-1-1">
-                               <h3><label>შემოწირულობის რაოდენობა</label></h3>
-                                <div id="donateOptions">
-                                    <button type="button">15</button>
-                                    <button type="button">30</button>
-                                    <button type="button">50</button>
-                                    <button type="button">100</button>
+    <div class="container ">
+        <div class="bg-white">
+            <form name="_xclick" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                <input type="hidden" name="cmd" value="_xclick">
+                <input type="hidden" name="business" value="tbilisipride@gmail.com">
+                <input type="hidden" name="currency_code" value="USD">
+                <div class="container-fluid">
+                    <div class="container ">
+                        <div class="row donate">
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                                <div class="options flex align-middle ">
+                                    <button type="button" class="button button--xlg button--active" data="10">$10</button>
+                                    <button type="button" class="button button--xlg" data="50">$50</button>
+                                    <button type="button" class="button button--xlg" data="50">$100</button>
+                                    <button type="button" class="button button--xlg" data="50">$300</button>
                                 </div>
-                                <div class="uk-position-relative uk-margin-top">
-
-                                    <input value="null" class="uk-input uk-margin-bottom text-box single-line"
-                                           data-val="true" data-val-number="The field Donation Amount must be a number."
-                                           data-val-range="Minimum amount is 1" data-val-range-max="4294967295"
-                                           data-val-range-min="1"
-                                           data-val-required="The Donation Amount field is required."
-                                           id="DonationAmount" name="DonationAmount" type="number">
-                                    <div class="currencyselect">
-
-                                        <select class="currencySelect" data-val="true"
-                                                data-val-required="The DonationCurrency field is required."
-                                                id="DonationCurrency" name="DonationCurrency" aria-required="true"
-                                                aria-describedby="DonationCurrency-error" aria-invalid="false">
-                                            <option selected="selected" value="981">GEL</option>
-                                            <option value="840">USD</option>
-                                            <option value="978">EUR</option>
-
-                                        </select>
-                                        <i></i>
-                                    </div>
-                                    <span class="field-validation-valid uk-text-danger "
-                                          data-valmsg-for="DonationAmount" data-valmsg-replace="true"></span>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                                <div class="field focus" id="donate-field" value="240">
+                                    <span>თქვენი თანხა</span>
+                                    <input class="focus" type="text" required="" id="donate-field" name="amount">
                                 </div>
-
-
                             </div>
-
-                        </div>
-                        <div class="uk-width-large-1-3 uk-width-medium-1-2 uk-width-small-1-1">
-                            <label>დონორის სახელი</label>
-                            <div class="uk-margin-top">
-
-                                <input class="uk-input uk-margin-bottom text-box single-line" data-val="true"
-                                       data-val-length="Name cannot be longer than 200 characters."
-                                       data-val-length-max="200" data-val-required="The Name field is required."
-                                       id="Name" name="Name" type="text" value="">
-
-                                <span class="field-validation-valid uk-text-danger " data-valmsg-for="Name"
-                                      data-valmsg-replace="true"></span>
-                            </div>
-
-
-                        </div>
-
-                        <div class="uk-width-large-1-3 uk-width-medium-1-2 uk-width-small-1-1">
-                            <label>ელ-ფოსტა</label>
-
-                            <div class="uk-margin-top">
-                                <input class="uk-input uk-margin-bottom text-box single-line" data-val="true"
-                                       data-val-required="The Email field is required." id="Email" name="Email"
-                                       type="email" value="">
-                                <span class="field-validation-valid uk-text-danger" data-valmsg-for="Email"
-                                      data-valmsg-replace="true"></span>
-                            </div>
-                        </div>
-
-                        <div class="uk-width-large-1-3 uk-width-medium-1-2 uk-width-small-1-1">
-                            <label>მობილური</label>
-
-                            <div class="uk-margin-top">
-
-                                <input class="uk-input uk-margin-bottom text-box single-line" id="PhoneNumber"
-                                       name="PhoneNumber" type="text" value="">
-                                <span class="field-validation-valid uk-text-danger" data-valmsg-for="PhoneNumber"
-                                      data-valmsg-replace="true"></span>
-                            </div>
-                        </div>
-
-
-                        <input type="hidden" name="ClientIp" value="109.172.140.2">
-
-                        <div id="durationPick" class="uk-width-large-1-3 uk-width-medium-1-2 uk-width-small-1-1"
-                             style="display: none;">
-                            <label>შემოწირულობის ხანგრძლივობა</label>
-                            <div class="uk-margin-top">
-                                <div class="switch-field limit uk-margin-bottom">
-                                    <input type="radio" id="switch_left_limit" name="DurationLimitMain" value="true"
-                                           checked="">
-                                    <label for="switch_left_limit">უვადო (5 წელი)</label>
-                                    <input type="radio" id="switch_right_limit" name="DurationLimitMain" value="false">
-                                    <label for="switch_right_limit">ვადიანი</label>
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                                <div class="flex align-middle">
+                                    <input type="image" class="button button--xlg button--paypal" src="img/paypal.svg" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!" formtarget="_blank">
                                 </div>
                             </div>
                         </div>
-                        <div style="display: none" id="durationMonths"
-                             class="uk-width-large-1-3 uk-width-medium-1-2 uk-width-small-1-1">
-                            <label>თვე</label>
-                            <div class="uk-margin-top ">
-
-
-                                <input class="uk-input uk-margin-bottom text-box single-line" data-val="true"
-                                       data-val-number="The field Duration must be a number." id="durationInput"
-                                       name="Duration" type="number" value="">
-                                <span class="field-validation-valid uk-text-danger" data-valmsg-for="Duration"
-                                      data-valmsg-replace="true"></span>
-                            </div>
-                        </div>
-
-                        <div class="uk-width-1-1">
-
-                            <div class="uk-margin-top donationsButton buttonInput">
-                                <input type="submit" value="დადასტურება" class="btn btn-default">
-                            </div>
-                        </div>
-
                     </div>
                 </div>
             </form>
-            <div class="uk-width-1-1  uk-margin-bottom uk-margin-top ">
+        </div>
+        <br>
+        <div class="bg-white">
+            <div class="container text-center">
+                <p><em>&nbsp;</em></p>
+                <p><em>&nbsp;</em></p>
+                <h2 style="text-align:center"><strong>საბანკო გადარიცხვის რეკვიზიტები</strong></h2>
+                <div class="row">
+                    <div class=" col-md-6 col-sm-6 col-lg col-lg-6">
+                        <p><em>&nbsp;</em></p>
+                        <p><em><strong>ლარის ანგარიში</strong></em></p>
 
-                <div class="annullButton uk-text-right">
+                        <p>სს “თიბისი ბანკი” – asdasd</p>
 
+                        <p>საბანკო კოდი: TBCBGE22</p>
 
+                        <p>მიმღები: ფონდი "asdasd"</p>
+
+                        <p>ანგარიშის ნომერი: 12345678</p>
+
+                    </div>
+
+                    <div class="col-md-6 col-sm-6 col-lg-6">
+                        <p><em>&nbsp;</em></p>
+                        <p><em><strong>USD/EUR/GBP- ანგარიში</strong></em></p>
+
+                        <p>CITIBANK N.A.<br>
+                            NEW-YORK, USA<br>
+                            SWIFT:CITIUS33<br>
+                            ABA:021000089<br>
+                            HEAD OFFICE SWIFT: TBCBGE22<br>
+                            JSC"TBC Bank", asd<br>
+                            SWIFT:asd<br>
+                            ACCOUNT:asd<br>
+                            NAME OF BENEFICIARY: "asd"</p>
+
+                    </div>
                 </div>
             </div>
-
         </div>
-
-
     </div>
-</div>
-    <br>
-    <div class="bg-white">
-    <div class="container text-center">
-        <p><em>&nbsp;</em></p>
-        <p><em>&nbsp;</em></p>
-        <h2 style="text-align:center"><strong>საბანკო გადარიცხვის რეკვიზიტები</strong></h2>
-        <div class="row">
-            <div class=" col-md-6 col-sm-6 col-lg col-lg-6">
-                <p><em>&nbsp;</em></p>
-                    <p><em><strong>ლარის ანგარიში</strong></em></p>
-
-                    <p>სს “თიბისი ბანკი” – asdasd</p>
-
-                    <p>საბანკო კოდი: TBCBGE22</p>
-
-                    <p>მიმღები: ფონდი "asdasd"</p>
-
-                    <p>ანგარიშის ნომერი: 12345678</p>
-
-            </div>
-
-            <div class="col-md-6 col-sm-6 col-lg-6">
-                <p><em>&nbsp;</em></p>
-                <p><em><strong>USD/EUR/GBP- ანგარიში</strong></em></p>
-
-                <p>CITIBANK N.A.<br>
-                    NEW-YORK, USA<br>
-                    SWIFT:CITIUS33<br>
-                    ABA:021000089<br>
-                    HEAD OFFICE SWIFT: TBCBGE22<br>
-                    JSC"TBC Bank", asd<br>
-                    SWIFT:asd<br>
-                    ACCOUNT:asd<br>
-                    NAME OF BENEFICIARY: "asd"</p>
-
-            </div>
-    </div>
-    </div>
-</div>
-</div>
 
     <footer class="page-footer">
 
@@ -662,6 +541,7 @@
     };
     /* ]]> */
 </script>
+<script type="js/jquery.validate.min.js"></script>
 <script type='text/javascript'
         src='js/scripts.js'></script>
 <script type='text/javascript'
@@ -677,6 +557,7 @@
 <script type='text/javascript' src='js/wp-embed.min.js'></script>
 <script type='text/javascript'
         src='js/forms.min.js'></script>
+<script type="text/javascript" src="js/paypal.js"></script>
 
 </body>
 </html>
