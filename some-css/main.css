@@ -826,7 +826,7 @@ ul.page-menu .nav-item .nav-link:hover {
     width: 200px;
     padding: 0px 0px;
     z-index: 100;
-    background: #570000;
+    background: #CACFD2;
     -webkit-transition: all 200ms linear;
     -moz-transition: all 200ms linear;
     -ms-transition: all 200ms linear;
@@ -2259,8 +2259,8 @@ form {
 .page-footer .widget_text .mc4wp-form input,
 .form--search input {
     background: 0 0;
-    border: 2px solid #FDFEFE;
-    color: #FDFEFE;
+    border: 2px solid #000000;
+    color: #000000;
     display: block;
     width: 100%;
     border-radius: 2px;
@@ -2330,7 +2330,7 @@ form {
 .page-footer .widget_text .mc4wp-form input[type=submit],
 .page-footer .widget_text .mc4wp-form input[type=submit] i,
 .form--search button i {
-    color: #FDFEFE;
+    color: #000000;
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out
 }
