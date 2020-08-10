@@ -473,7 +473,7 @@
 }
 
 .elementor img {
-    height: 450px;
+    height: auto;
     max-width: 100%;
     border: none;
     -webkit-border-radius: 0;
