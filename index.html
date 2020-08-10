@@ -15,6 +15,13 @@
     <link rel="stylesheet" href="contact.html">
     <link rel="stylesheet" href="donation.html">
     <link rel="stylesheet" href="older-people.html">
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="some-css/min.css">
+    <script src="example.html" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="js/slider.js"></script>
 
     <link rel='dns-prefetch' href='//fonts.googleapis.com'/>
     <link rel='dns-prefetch' href='//s.w.org'/>
@@ -409,7 +416,7 @@
                             })();
                             pagespeed.CriticalImages.Run('/mod_pagespeed_beacon', 'http://wisdom.extracoding.com/?fbclid=IwAR0aIBsvUDHZoMrF4-TU6Ffym86hfw93S9-nwElc2vRj_KjL8cvsnl-0sC0', 'YddRYU7ik1', true, false, '0LArx_MalCE');
                             //]]></script>
-                            <img src="http://wisdom.extracoding.com/wp-content/themes/wisdom-of-life/assets/img/logo.png"
+                            <img src="img/logo%20(2).png"
                                  alt="logo" pagespeed_url_hash="1169956617"
                                  onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
                         </a>
@@ -422,20 +429,20 @@
                     <form role="search" method="get" class="form--search" action="http://wisdom.extracoding.com/">
                         <input type="search" id="search-form-5f215c16c1b72" placeholder="Enter any Keyword" value=""
                                name="s"/>
-                        <button type="submit"><i class="icon icon-search"></i></button>
+                        <button type="submit"><i class="fas fa-search"></i></button>
                     </form>
                 </div>
                 <div class="middle-right">
                     <div>
-                        <li class="dropdown language-selector" id="Language-bar" >
+                        <li class="dropdown language-selector" id="Language-bar">
 
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-close-others="true">
-                                <img src="img/united-kingdom-flag-square-icon-64.png" />
+                                <img src="img/united-kingdom-flag-square-icon-64.png"/>
                             </a>
                             <ul class="dropdown-menu pull-right">
                                 <li>
                                     <a href="#">
-                                        <img src="img/georgia-flag.svg" />
+                                        <img src="img/georgia-flag.svg"/>
                                         <span>Georgia</span>
                                     </a>
                                 </li>
@@ -514,25 +521,43 @@
                                                     <div class="elementor-element elementor-element-7596302 elementor-widget elementor-widget-wl-main-slider"
                                                          data-id="7596302" data-element_type="widget"
                                                          data-widget_type="wl-main-slider.default">
-                                                        <div class="elementor-widget-container">
+                                                        <div class="elementor-widget-container ">
                                                             <div class="block--latest-tiles">
-                                                                <div class="block-tile main-tile"
-                                                                     style="background-image:url( img/25011-exp-2024-03-compressor-1-889x430.png);">
-                                                                    <div class="block-tile__item">
-                                                                        <h2 class="post-title lg">
-                                                                            <a href="news.html">Child
-                                                                                cruelty and neglect crimes
-                                                                                continue to rise every
-                                                                                year</a>
-                                                                        </h2>
-                                                                        <p>Lorem ipsum dolor sit amet,
-                                                                            consectetur adipiscing elit, sed
-                                                                            do</p>
-                                                                        <a class="cs-btn-flat cs-btn-flat--light"
-                                                                           href="news.html"><span>Read More</span><i
-                                                                                class="icon icon-right-arrow"></i></a>
+                                                                <div id="carouselExampleControls" class="carousel slide"
+                                                                     data-ride="carousel">
+                                                                    <div class="carousel-inner">
+                                                                        <div class="carousel-item active">
+                                                                            <img class="d-block w-100"
+                                                                                 src="img/900x506-hero-tdti-msc.jpg"
+                                                                                 alt="First slide">
+                                                                        </div>
+                                                                        <div class="carousel-item">
+                                                                            <img class="d-block w-100"
+                                                                                 src="img/Forbes-Woman-ფოტოები-6-1-900x506.jpg"
+                                                                                 alt="Second slide">
+                                                                        </div>
+                                                                        <div class="carousel-item">
+                                                                            <img class="d-block w-100"
+                                                                                 src="img/25011-exp-2024-03-compressor-1.png"
+                                                                                 alt="Third slide">
+                                                                        </div>
                                                                     </div>
+                                                                    <a class="carousel-control-prev"
+                                                                       href="#carouselExampleControls" role="button"
+                                                                       data-slide="prev">
+                                                                        <span class="carousel-control-prev-icon"
+                                                                              aria-hidden="true"></span>
+                                                                        <span class="sr-only">Previous</span>
+                                                                    </a>
+                                                                    <a class="carousel-control-next"
+                                                                       href="#carouselExampleControls" role="button"
+                                                                       data-slide="next">
+                                                                        <span class="carousel-control-next-icon"
+                                                                              aria-hidden="true"></span>
+                                                                        <span class="sr-only">Next</span>
+                                                                    </a>
                                                                 </div>
+
                                                             </div>
                                                         </div>
                                                     </div>
@@ -556,8 +581,8 @@
                                                                                 <a href="older-people.html">Give
                                                                                     your love to older people</a></h2>
                                                                             <a class="cs-btn-flat cs-btn-flat--light cs-btn-flat--sm"
-                                                                               href="older-people.html"><span>Read More</span><i
-                                                                                    class="icon icon-right-arrow"></i></a>
+                                                                               href="older-people.html"><span>Read More</span>
+                                                                                <i class="fas fa-arrow-right"></i></a>
                                                                         </div>
                                                                     </div>
                                                                     <div class="tile-box"
@@ -568,8 +593,9 @@
                                                                                     one has ever become poor by
                                                                                     giving</a></h2>
                                                                             <a class="cs-btn-flat cs-btn-flat--light cs-btn-flat--sm"
-                                                                               href="http://wisdom.extracoding.com/no-one-has-ever-become-poor-by-giving/"><span>Read More</span><i
-                                                                                    class="icon icon-right-arrow"></i></a>
+                                                                               href="http://wisdom.extracoding.com/no-one-has-ever-become-poor-by-giving/"><span>Read More</span>
+                                                                                <i class="fas fa-arrow-right"></i>
+                                                                            </a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -597,7 +623,9 @@
                                                         <div class="elementor-widget-container">
                                                             <div class="info-bar">
                                                                 <div class="info-bar__left">
-                                                                    <span class="info-icon"></span>
+                                                                    <span class="info-icon"><img
+                                                                            src="img/xinfo-icon.png.pagespeed.ic.YEPu50PY42.png"
+                                                                            alt="img"></span>
                                                                 </div>
                                                                 <div class="info-bar__content">
                                                                     <div class="info-bar-slider">
@@ -616,10 +644,11 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="info-bar__right">
-                                                                    <button class="step-arrow up"><i
-                                                                            class="icon icon-up-arrow"></i></button>
+                                                                    <button class="step-arrow up">
+                                                                        <i class="fas fa-arrow-up"></i>
+                                                                    </button>
                                                                     <button class="step-arrow down"><i
-                                                                            class="icon icon-down-arrow"></i></button>
+                                                                            class="fas fa-arrow-down"></i></button>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -783,7 +812,10 @@
                                                                                 <h2>ბავშვთა მრჩეველთა საბჭო</h2>
                                                                                 <div class="post-info">
                                                                                     <div class="author"><i
-                                                                                            class="icon icon-avatar"></i>
+                                                                                            class="icon icon-avatar"> <i
+                                                                                            class="fa fa-user-o"
+                                                                                            aria-hidden="true"></i>
+                                                                                    </i>
                                                                                         <span>Posted by: Asif</span>
                                                                                     </div>
                                                                                     <div class="date"><i
@@ -830,8 +862,9 @@
                                                                                                 consectetur adipiscing
                                                                                                 elit, sed do</p>
                                                                                             <a class="cs-btn-flat cs-btn-flat--sm cs-btn-flat--dark"
-                                                                                               href="http://wisdom.extracoding.com/no-one-has-ever-become-poor-by-giving/"><span>Read More</span><i
-                                                                                                    class="icon icon-right-arrow"></i></a>
+                                                                                               href="http://wisdom.extracoding.com/no-one-has-ever-become-poor-by-giving/"><span>Read More</span>
+                                                                                                <i class="fas fa-arrow-right"></i>
+                                                                                            </a>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
@@ -870,8 +903,9 @@
                                                                                                 consectetur adipiscing
                                                                                                 elit, sed do</p>
                                                                                             <a class="cs-btn-flat cs-btn-flat--sm cs-btn-flat--dark"
-                                                                                               href="http://wisdom.extracoding.com/disability-is-not-the-end-of-your-career/"><span>Read More</span><i
-                                                                                                    class="icon icon-right-arrow"></i></a>
+                                                                                               href="http://wisdom.extracoding.com/disability-is-not-the-end-of-your-career/"><span>Read More</span>
+                                                                                                <i class="fas fa-arrow-right"></i>
+                                                                                            </a>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
@@ -911,8 +945,9 @@
                                                                                                 consectetur adipiscing
                                                                                                 elit, sed do</p>
                                                                                             <a class="cs-btn-flat cs-btn-flat--sm cs-btn-flat--dark"
-                                                                                               href="http://wisdom.extracoding.com/proof-that-ngo-blogs-is-exactly-what-you-are-looking-for/"><span>Read More</span><i
-                                                                                                    class="icon icon-right-arrow"></i></a>
+                                                                                               href="http://wisdom.extracoding.com/proof-that-ngo-blogs-is-exactly-what-you-are-looking-for/"><span>Read More</span>
+                                                                                                <i class="fas fa-arrow-right"></i>
+                                                                                            </a>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
@@ -966,8 +1001,9 @@
                                                                                                 consectetur adipiscing
                                                                                                 elit, sed do</p>
                                                                                             <a class="cs-btn-flat cs-btn-flat--sm cs-btn-flat--dark"
-                                                                                               href="http://wisdom.extracoding.com/no-one-has-ever-become-poor-by-giving/"><span>Read More</span><i
-                                                                                                    class="icon icon-right-arrow"></i></a>
+                                                                                               href="http://wisdom.extracoding.com/no-one-has-ever-become-poor-by-giving/"><span>Read More</span>
+                                                                                                <i class="fas fa-arrow-right"></i>
+                                                                                            </a>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
@@ -1009,8 +1045,9 @@
                                                                                                 consectetur adipiscing
                                                                                                 elit, sed do</p>
                                                                                             <a class="cs-btn-flat cs-btn-flat--sm cs-btn-flat--dark"
-                                                                                               href="http://wisdom.extracoding.com/disability-is-not-the-end-of-your-career/"><span>Read More</span><i
-                                                                                                    class="icon icon-right-arrow"></i></a>
+                                                                                               href="http://wisdom.extracoding.com/disability-is-not-the-end-of-your-career/"><span>Read More</span>
+                                                                                                <i class="fas fa-arrow-right"></i>
+                                                                                            </a>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
@@ -1053,8 +1090,10 @@
                                                                                                 consectetur adipiscing
                                                                                                 elit, sed do</p>
                                                                                             <a class="cs-btn-flat cs-btn-flat--sm cs-btn-flat--dark"
-                                                                                               href="http://wisdom.extracoding.com/proof-that-ngo-blogs-is-exactly-what-you-are-looking-for/"><span>Read More</span><i
-                                                                                                    class="icon icon-right-arrow"></i></a>
+                                                                                               href="http://wisdom.extracoding.com/proof-that-ngo-blogs-is-exactly-what-you-are-looking-for/"><span>Read More</span>
+                                                                                                <i class="fas fa-arrow-right"></i>
+
+                                                                                            </a>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
@@ -1387,11 +1426,11 @@
                                                                             </div>
                                                                         </div>
                                                                         <div class="step-arrows">
-                                                                            <button class="prev"><i
-                                                                                    class="icon icon-prev-arrow"></i>
+                                                                            <button class="prev">
+                                                                                <i class="fas fa-chevron-left"></i>
                                                                             </button>
-                                                                            <button class="next"><i
-                                                                                    class="icon icon-next-arrow"></i>
+                                                                            <button class="next">
+                                                                                <i class="fas fa-chevron-right"></i>
                                                                             </button>
                                                                         </div>
                                                                     </div>
@@ -1422,16 +1461,14 @@
                     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
                         <div id="text-8" class="widget widget_text">
                             <div class="textwidget"><p><img class="alignnone size-medium wp-image-1901"
-                                                            src="http://wisdom.extracoding.com/wp-content/uploads/sites/4/2020/03/logo.png"
+                                                            src="img/Untitled-4.png"
                                                             alt="Logo" width="300" height="82"
                                                             pagespeed_url_hash="139194659"
                                                             onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/>
                             </p>
                                 <p>Wisdom of life, an NGO WordPress theme with 2.5k+ sales and advanced features
                                     available for purchase at</p>
-                                <p><a class="buy-now-btn"
-                                      href="https://themeforest.net/item/wisdom-of-life-ngo-and-charity-theme/1778657?s_rank=15">Buy
-                                    Now</a></p>
+
                             </div>
                         </div>
                     </div>
@@ -1449,14 +1486,14 @@
                             On</h4>
                             <div class="follow-us__row">
                                 <ul>
-                                    <li><a href="#" target="_blank"><i class="icon icon-facebook"></i></a></li>
-                                    <li><a href="#" target="_blank"><i class="icon icon-gplus"></i></a></li>
-                                    <li><a href="#" target="_blank"><i class="icon icon-instagram"></i></a></li>
-                                    <li><a href="#" target="_blank"><i class="icon icon-twitter"></i></a></li>
-                                    <li><a href="#" target="_blank"><i class="icon icon-vimeo"></i></a></li>
-                                    <li><a href="#" target="_blank"><i class="icon icon-linkedin"></i></a></li>
-                                    <li><a href="#" target="_blank"><i class="icon icon-pinterest"></i></a></li>
-                                    <li><a href="#" target="_blank"><i class="icon icon-youtube"></i></a></li>
+                                    <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#" target="_blank"><i class="fab fa-google-plus-g"></i></a></li>
+                                    <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#" target="_blank"><i class="fab fa-vimeo-v"></i></a></li>
+                                    <li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a href="#" target="_blank"><i class="fab fa-pinterest-p"></i></a></li>
+                                    <li><a href="#" target="_blank"><i class="fab fa-youtube"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -1590,6 +1627,6 @@ var wpcf7 = {
         src='js/ekko-lightbox.min.js'></script>
 <script type='text/javascript'
         src='js/elementor-scripts.js'></script>
-
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </body>
 </html>

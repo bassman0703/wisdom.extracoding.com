@@ -687,14 +687,13 @@ ul.page-menu {
 }
 
 ul.page-menu .nav-item.active .nav-link {
-    background: #570000;
-    color: #fff;
+    color: #000000;
     opacity: 1;
     font-weight: 700
 }
 
 ul.page-menu .nav-item .nav-link {
-    color: #fff;
+    color: #000000;
     opacity: .8;
     display: block;
     padding: 1.4125rem 1.9rem;
@@ -2260,8 +2259,8 @@ form {
 .page-footer .widget_text .mc4wp-form input,
 .form--search input {
     background: 0 0;
-    border: 2px solid #fff;
-    color: #fff;
+    border: 2px solid #000000;
+    color: #000000;
     display: block;
     width: 100%;
     border-radius: 2px;
@@ -2306,7 +2305,6 @@ form {
 .page-footer .widget_mc4wp_form_widget .mc4wp-form input[type=submit],
 .page-footer .widget_text .mc4wp-form input[type=submit],
 .form--search button {
-    background: #fff;
     height: 40px;
     position: absolute;
     right: 0;
@@ -2332,7 +2330,7 @@ form {
 .page-footer .widget_text .mc4wp-form input[type=submit],
 .page-footer .widget_text .mc4wp-form input[type=submit] i,
 .form--search button i {
-    color: #570000;
+    color: #000000;
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out
 }
@@ -3035,7 +3033,7 @@ table td {
 }
 
 .page-header__middle {
-    background: #af0101;
+    background: #FBFCFC;
     padding: 21px 0
 }
 
@@ -3098,7 +3096,7 @@ table td {
     display: block;
     padding-right: 2.5vw;
     height: 78px;
-    border-right: 2px solid #840000;
+    border-right: 2px solid #000000;
     -webkit-transition: opacity .3s ease-in-out;
     transition: opacity .3s ease-in-out
 }
@@ -3110,7 +3108,7 @@ table td {
 .page-header .brand-logo img {
     display: block;
     max-width: 285px;
-    height: auto;
+    height: 94px;
     position: relative
 }
 
@@ -3137,7 +3135,7 @@ table td {
 }
 
 .page-header .brand-text p {
-    color: #fff;
+    color: #000000;
     margin-bottom: 0;
     opacity: .8;
     font-size: .75rem
@@ -3156,7 +3154,7 @@ table td {
 }
 
 .page-header__bottom {
-    background: #730101
+    background: #CACFD2;
 }
 
 .page-header .bottom-content {
@@ -3169,8 +3167,7 @@ table td {
 }
 
 .page-header .bottom-content .navbar-extend .extend-btn {
-    color: #fff;
-    background: #570000;
+    color: #000000;
     display: block;
     padding: 1.4125rem 1.9rem;
     font-size: .875rem;
@@ -3310,9 +3307,9 @@ article.article .simple-list li:before {
 
 .page-footer {
 
-    color: #fff;
+    color: #000000;
 
-    background: #570000
+    background: #000000;
 }
 
 .page-footer .widget_text img {
@@ -3660,7 +3657,7 @@ article.article .simple-list li:before {
 
 .page-footer .footer-bottom {
 
-    background: #470000;
+    background: #000000;
 
     padding: 21px 0;
 

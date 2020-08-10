@@ -2162,11 +2162,10 @@ form {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
-    background: url(http://wisdom.extracoding.com/wp-content/themes/wisdom-of-life/assets/img/xinfo-icon.png.pagespeed.ic.YEPu50PY42.png) no-repeat;
+
     background-size: 100%;
     border-radius: 50%;
-    width: 28px;
-    height: 28px
+    font-size: 50px;
 }
 
 .info-bar__content {
