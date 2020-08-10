@@ -772,22 +772,22 @@ ul.page-menu .nav-item .nav-link:hover {
     text-align: left;
 }
 
-.page-nav .page-menu>li.nav__dropdown>a:after {
-    content: "\E006";
-    position: absolute;
-    right: 12px;
-    top: 21px;
-    width: 10px;
-    height: 20px;
-    display: block;
-    line-height: 20px;
-    font-size: 5px;
-    color: #fff;
-    font-weight: normal;
-    text-align: center;
-    z-index: 5;
-    font-family: 'Icons';
-}
+/*.page-nav .page-menu>li.nav__dropdown>a:after {*/
+/*    content: "\E006";*/
+/*    position: absolute;*/
+/*    right: 12px;*/
+/*    top: 21px;*/
+/*    width: 10px;*/
+/*    height: 20px;*/
+/*    display: block;*/
+/*    line-height: 20px;*/
+/*    font-size: 5px;*/
+/*    color: #fff;*/
+/*    font-weight: normal;*/
+/*    text-align: center;*/
+/*    z-index: 5;*/
+/*    font-family: 'Icons';*/
+/*}*/
 
 .page-nav .page-menu>li {
     position: relative;
