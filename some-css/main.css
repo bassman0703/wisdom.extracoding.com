@@ -555,16 +555,6 @@ a:active {
         url(../fonts/icons/Icons.svg#Icons) format("svg")
 }
 
-/*.icon:before {*/
-/*    font-family: "Icons";*/
-/*    -webkit-font-smoothing: antialiased;*/
-/*    -moz-osx-font-smoothing: grayscale;*/
-/*    font-style: normal;*/
-/*    font-variant: normal;*/
-/*    font-weight: 400;*/
-/*    text-decoration: none;*/
-/*    text-transform: none*/
-/*}*/
 
 .icon-avatar:before {
     content: "\E001"
@@ -986,22 +976,6 @@ ul.page-menu .nav-item ul li .nav-link {
     -ms-transition: all 500ms ease;
     -o-transition: all 500ms ease;
 }
-
-/*.page-nav .navbar-collapse>ul li.nav__dropdown .dropdown-btn {*/
-/*    position: absolute;*/
-/*    right: 10px;*/
-/*    top: 8px;*/
-/*    width: 34px;*/
-/*    height: 30px;*/
-/*    border: none;*/
-/*    text-align: center;*/
-/*    font-size: 8px;*/
-/*    line-height: 30px;*/
-/*    color: rgba(34, 34, 34, 0.5);*/
-/*    cursor: pointer;*/
-/*    z-index: 5;*/
-/*    display: none;*/
-/*}*/
 
 
 
