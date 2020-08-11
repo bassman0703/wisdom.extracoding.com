@@ -2265,6 +2265,7 @@ form {
     width: 100%;
     border-radius: 2px;
     height:41px;
+    margin-top: 25px;
 }
 
 .page-footer .widget_mc4wp_form_widget .mc4wp-form input::-webkit-input-placeholder,
@@ -2885,7 +2886,7 @@ table tr:nth-child(odd) td {
 .table td,
 table td {
     border: none;
-    padding: 10px 30px;
+    /*padding: 10px 30px;*/
     font-size: 14px
 }
 
