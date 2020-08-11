@@ -987,21 +987,21 @@ ul.page-menu .nav-item ul li .nav-link {
     -o-transition: all 500ms ease;
 }
 
-.page-nav .navbar-collapse>ul li.nav__dropdown .dropdown-btn {
-    position: absolute;
-    right: 10px;
-    top: 8px;
-    width: 34px;
-    height: 30px;
-    border: none;
-    text-align: center;
-    font-size: 8px;
-    line-height: 30px;
-    color: rgba(34, 34, 34, 0.5);
-    cursor: pointer;
-    z-index: 5;
-    display: none;
-}
+/*.page-nav .navbar-collapse>ul li.nav__dropdown .dropdown-btn {*/
+/*    position: absolute;*/
+/*    right: 10px;*/
+/*    top: 8px;*/
+/*    width: 34px;*/
+/*    height: 30px;*/
+/*    border: none;*/
+/*    text-align: center;*/
+/*    font-size: 8px;*/
+/*    line-height: 30px;*/
+/*    color: rgba(34, 34, 34, 0.5);*/
+/*    cursor: pointer;*/
+/*    z-index: 5;*/
+/*    display: none;*/
+/*}*/
 
 
 
@@ -1112,9 +1112,9 @@ ul.page-menu .nav-item ul li .nav-link {
         color: #222 !important;
     }
 
-    .page-nav .navbar-collapse>.page-menu li.nav__dropdown .dropdown-btn {
-        display: block;
-    }
+    /*.page-nav .navbar-collapse>.page-menu li.nav__dropdown .dropdown-btn {*/
+    /*    display: block;*/
+    /*}*/
 
     .page-nav .navbar-collapse>.page-menu li.nav__dropdown:after,
     .page-nav .page-menu>li>ul:before {
