@@ -1,5 +1,22 @@
-#Language-bar {
-    width: 20px;
-    list-style: none;
+/*#Language-bar {*/
+/*    width: 20px;*/
+/*    list-style: none;*/
+/*    display: inline-block;*/
+/*}*/
+.lang-li {
+    display: flex;
+    width: 42px;
 }
-
+.lang-a {
+margin-right: 5px;
+}
+.adapt-icone{
+    font-size: 36px;
+}
+.color-a{
+    color: #000000;
+}
+.bg-size{
+    height: 59px;
+    background: #f8df0c;
+}

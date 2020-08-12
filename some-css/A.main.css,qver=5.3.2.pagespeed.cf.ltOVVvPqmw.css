@@ -32,14 +32,14 @@ code, kbd, pre, samp {
 
 a {
     background-color: transparent;
-    color: #570000;
+    /*color: #000;*/
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
     text-decoration: none
 }
 
 a:hover {
-    color: #730101
+    /*color: #730101*/
 }
 
 abbr[title] {
@@ -208,7 +208,7 @@ h1, h2 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #570000;
+    /*color: #000;*/
     font-family: 'Montserrat', sans-serif;
     margin: 0
 }
@@ -265,7 +265,7 @@ ol, ul {
 }
 
 strong {
-    color: #570000
+    /*color: #000*/
 }
 
 a:hover, a:active {
@@ -351,7 +351,7 @@ a:hover, a:active {
     right: 0;
     background: none;
     padding: 12px;
-    color: #570000;
+    /*color: #000;*/
     transition: all .3s ease-in-out;
     -webkit-transition: all .3s ease-in-out
 }
@@ -439,7 +439,7 @@ a:hover, a:active {
 .widget_calendar .calendar_wrap #wp-calendar caption {
     padding: 20px 0 10px 0;
     font-size: 15px;
-    color: #570000;
+    /*color: #000;*/
     font-weight: 600
 }
 
@@ -601,7 +601,7 @@ ul.page-menu .nav-item .nav-link {
     display: block;
     padding: 1.4125rem 1.9rem;
     font-size: .875rem;
-    font-weight: 400;
+    font-weight: bold;
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
     line-height: 1;
@@ -612,7 +612,7 @@ ul.page-menu .nav-item .nav-link {
 
 ul.page-menu .nav-item .nav-link:hover {
     opacity: 1;
-    background: #570000
+    /*background: #000*/
 }
 
 .navbar-dark .navbar-toggler {
@@ -671,7 +671,6 @@ ul.page-menu .nav-item .nav-link:hover {
 }
 
 .page-nav .page-menu > li.nav__dropdown > a:after {
-    content: "\E006";
     position: absolute;
     right: 12px;
     top: 21px;
@@ -692,7 +691,7 @@ ul.page-menu .nav-item .nav-link:hover {
 }
 
 .page-nav .page-menu > li > ul > li > ul > li:hover > a {
-    color: #570000;
+    color: #000;
     background: #fff
 }
 
@@ -724,7 +723,7 @@ ul.page-menu .nav-item .nav-link:hover {
     width: 200px;
     padding: 0px 0px;
     z-index: 100;
-    background: #570000;
+    /*background: #000;*/
     -webkit-transition: all 200ms linear;
     -moz-transition: all 200ms linear;
     -ms-transition: all 200ms linear;
@@ -779,7 +778,7 @@ ul.page-menu .nav-item ul li .nav-link {
 }
 
 .page-nav .page-menu > li > ul > li:hover > a {
-    border-left: 4px solid #af0101;
+    border-left: 4px solid #f8df0c;
     background: #222
 }
 
@@ -810,7 +809,7 @@ ul.page-menu .nav-item ul li .nav-link {
     opacity: 0;
     visibility: hidden;
     display: none;
-    background: #570000;
+    /*background: #000;*/
     -webkit-transition: all 200ms linear;
     -moz-transition: all 200ms linear;
     -ms-transition: all 200ms linear;
@@ -1029,7 +1028,7 @@ ul.page-menu .nav-item ul li .nav-link {
 }
 
 .card .post-info i {
-    color: #570000;
+    color: #000;
     font-size: 12px;
     position: relative;
     top: 1px;
@@ -1074,7 +1073,7 @@ ul.page-menu .nav-item ul li .nav-link {
 }
 
 .card--blog-post .card-title {
-    color: #570000;
+    color: #000;
     font-size: 14px;
     font-weight: 600;
     letter-spacing: -.5px;
@@ -1128,7 +1127,7 @@ ul.page-menu .nav-item ul li .nav-link {
 }
 
 .card-volunteer .card-title {
-    color: #570000;
+    color: #000;
     font-size: 1rem;
     font-weight: 700;
     margin-bottom: 8px
@@ -1165,7 +1164,7 @@ ul.page-menu .nav-item ul li .nav-link {
 
 .card-related-post .card-title {
     font-size: 1rem;
-    color: #570000;
+    color: #000;
     margin-bottom: 8px
 }
 
@@ -1203,14 +1202,14 @@ ul.page-menu .nav-item ul li .nav-link {
 }
 
 .card--blog-main .card-title {
-    color: #570000;
+    color: #000;
     font-size: 1.375rem;
     margin-bottom: 15px;
     font-weight: 600
 }
 
 .card--blog-main .card-title a {
-    color: #570000;
+    color: #000;
     font-size: 1.375rem;
     margin-bottom: 15px;
     font-weight: 600
@@ -1242,7 +1241,7 @@ ul.page-menu .nav-item ul li .nav-link {
 }
 
 .card--blog-main .post-data > div i {
-    color: #570000;
+    color: #000;
     margin-right: 8px;
     font-size: 14px;
     position: relative;
@@ -1278,7 +1277,7 @@ ul.page-menu .nav-item ul li .nav-link {
 }
 
 .card--blog .card-title, .card--blog-offer .card-title, .card--event .card-title {
-    color: #570000;
+    color: #000;
     font-weight: 600;
     font-size: 1.325rem;
     line-height: 1.5;
@@ -1286,7 +1285,7 @@ ul.page-menu .nav-item ul li .nav-link {
 }
 
 .card--blog .card-title a, .card--blog-offer .card-title a, .card--event .card-title a {
-    color: #570000;
+    color: #000;
     font-weight: 600;
     font-size: 1.325rem;
     line-height: 1.5;
@@ -1325,7 +1324,7 @@ ul.page-menu .nav-item ul li .nav-link {
 .card--blog .post-data i:not(.icon-right-arrow),
 .card--blog-offer .post-data i:not(.icon-right-arrow),
 .card--event .post-data i:not(.icon-right-arrow) {
-    color: #570000;
+    color: #000;
     margin-right: 8px;
     font-size: 14px;
     position: relative;
@@ -1382,7 +1381,7 @@ ul.page-menu .nav-item ul li .nav-link {
     display: block;
     font-size: 1rem;
     font-weight: 800;
-    color: #570000;
+    color: #000;
     text-transform: uppercase
 }
 
@@ -1472,18 +1471,18 @@ ul.page-menu .nav-item ul li .nav-link {
 
 .single-event-card h1 {
     font-size: 1.5rem !important;
-    color: #570000;
+    /*color: #000;*/
     padding: 4px 0 20px !important
 }
 
 .single-tribe_events .tribe-events-cal-links a {
-    background: #af0101;
+    /*background: #af0101;*/
     color: #fff;
     padding: 10px 25px
 }
 
 .single-tribe_events .tribe-events-cal-links a:hover {
-    background: #570000;
+    /*background: #000;*/
     color: #fff;
     padding: 10px 25px
 }
@@ -1634,7 +1633,7 @@ ul.page-menu .nav-item ul li .nav-link {
 }
 
 .cs-btn-flat--dark {
-    color: #570000
+    color: #000
 }
 
 .cs-btn-flat--dark i, .list-items .list-item a:hover {
@@ -1842,7 +1841,7 @@ ul.page-menu .nav-item ul li .nav-link {
 
 .tags span {
     font-weight: 700;
-    color: #570000;
+    color: #000;
     font-size: 1rem;
     letter-spacing: -.2px;
     margin-right: 30px;
@@ -2100,7 +2099,7 @@ form {
 }
 
 .page-footer .widget_mc4wp_form_widget .mc4wp-form input[type="submit"], .page-footer .widget_mc4wp_form_widget .mc4wp-form input[type="submit"] i, .page-footer .widget_text .mc4wp-form input[type="submit"], .page-footer .widget_text .mc4wp-form input[type="submit"] i, .form--search button i {
-    color: #570000;
+    color: #000;
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out
 }
@@ -2359,7 +2358,7 @@ form {
 }
 
 .tabs .nav-link.active {
-    color: #570000;
+    color: #000;
     border: none;
     font-weight: 600
 }
@@ -2387,7 +2386,7 @@ form {
 }
 
 .sort-bar span {
-    color: #570000;
+    color: #000;
     display: block;
     font-size: 1rem;
     font-weight: 600;
@@ -2516,7 +2515,7 @@ form {
 
 .pagination ul li a:hover, .pagination ul li.active a {
     color: #fff;
-    background: #570000
+    /*background: #000*/
 }
 
 @media (max-width: 600px) {
@@ -2562,7 +2561,7 @@ form {
 }
 
 .content-title h2 {
-    color: #570000;
+    color: #000;
     font-size: 1.375rem;
     font-weight: 700
 }
@@ -2574,7 +2573,7 @@ form {
 }
 
 .block--helped .help-value strong, .link--primary {
-    color: #570000
+    color: #000
 }
 
 .link--secondary, article.article b, article.article strong {
@@ -2836,7 +2835,7 @@ table tr:nth-child(odd) td {
 .page-header .brand-logo img {
     display: block;
     max-width: 285px;
-    height: auto;
+    height: 94;
     position: relative
 }
 
@@ -2960,7 +2959,7 @@ table tr:nth-child(odd) td {
 
 .page-header .bottom-content .recent-items li h3 {
     margin-bottom: 12px;
-    color: #570000;
+    color: #000;
     font-size: 1rem;
     font-weight: 600;
     letter-spacing: -.3px;
@@ -3344,7 +3343,7 @@ table tr:nth-child(odd) td {
 }
 
 .block .block-header .block-title {
-    color: #570000;
+    color: #000;
     font-size: 1.125rem;
     font-weight: 800;
     letter-spacing: -.2px;
@@ -3645,7 +3644,7 @@ table tr:nth-child(odd) td {
 }
 
 .block--recent-event .recent-events-list .item a, .block--recent-event .recent-events-list .item h3 {
-    color: #570000;
+    /*color: #000;*/
     font-size: 14px;
     margin-bottom: 15px;
     font-weight: 700;
@@ -3653,7 +3652,7 @@ table tr:nth-child(odd) td {
 }
 
 .block--recent-event .recent-events-list .item a:hover, .block--recent-event .recent-events-list .item h3:hover {
-    color: #730101
+    /*color: #730101*/
 }
 
 .block--recent-event .recent-events-list .item p {
@@ -3950,7 +3949,7 @@ table tr:nth-child(odd) td {
 }
 
 .block--info .info-title {
-    color: #570000;
+    color: #000;
     margin-bottom: 15px;
     font-weight: 500;
     font-size: 1rem
@@ -4012,7 +4011,7 @@ table tr:nth-child(odd) td {
 }
 
 .block--author figure figcaption {
-    color: #570000;
+    color: #000;
     font-size: 14px;
     font-weight: 600;
     letter-spacing: -.3px
@@ -4074,7 +4073,7 @@ table tr:nth-child(odd) td {
 }
 
 .block--comments .card-title {
-    color: #570000;
+    color: #000;
     font-size: 1rem;
     font-weight: 600;
     letter-spacing: 0;
@@ -4132,7 +4131,7 @@ table tr:nth-child(odd) td {
 }
 
 .block--comments .card-action a i {
-    color: #570000;
+    color: #000;
     font-size: 18px;
     margin-right: 7px
 }
@@ -4297,7 +4296,7 @@ article.article p.intro {
 }
 
 article.article p.important, article.article p.important strong {
-    color: #570000;
+    color: #000;
     font-weight: 600
 }
 
@@ -4357,7 +4356,7 @@ article.article .simple-list li {
 }
 
 .block--article .article-header .article-title {
-    color: #570000;
+    color: #000;
     font-weight: 700;
     font-size: 1.5rem;
     margin-bottom: 30px
@@ -4477,7 +4476,7 @@ article.article .simple-list li {
 .block--article-view .headline h1 {
     margin-bottom: 0;
     font-size: 1.5rem;
-    color: #570000
+    color: #000
 }
 
 .block--article-view .featured-image img {
@@ -4685,13 +4684,13 @@ main {
 .single-tribe_events #tribe-events-content .tribe-events-event-meta dd address .tribe-events-gmap {
     margin-top: 30px;
     display: inline-block;
-    background: #af0101;
+    /*background: #af0101;*/
     color: #fff;
     padding: 10px 25px
 }
 
 .single-tribe_events #tribe-events-content .tribe-events-event-meta dd address .tribe-events-gmap:hover {
-    background: #570000;
+    /*background: #000;*/
     color: #fff;
     padding: 10px 25px
 }
@@ -4730,7 +4729,7 @@ main {
     top: 31%;
     right: 15px;
     font-size: 15px;
-    color: #570000
+    /*color: #000*/
 }
 
 .contact-form .form-group input, .contact-form .form-group input[type="email"], .contact-form .form-group input[type="text"] {
@@ -4778,7 +4777,7 @@ main {
 .contact-us-page .info-detail li .icon {
     position: absolute;
     left: 0;
-    color: #570000;
+    /*color: #000;*/
     font-size: 16px
 }
 
@@ -4799,7 +4798,7 @@ main {
     font-size: 17px;
     margin-top: 15px;
     font-weight: 600;
-    color: #570000
+    /*color: #000*/
 }
 
 .gallery .elementor-fit-aspect-ratio > div {
@@ -4944,7 +4943,7 @@ main {
 .textwidget .buy-now-btn {
     background: rgba(255, 255, 255, .7);
     border-radius: 2px;
-    color: #570000 !important;
+    /*color: #000 !important;*/
     padding: 8px 18px;
     margin-top: 8px;
     display: inline-block;
