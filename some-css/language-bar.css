@@ -5,11 +5,21 @@
 /*}*/
 .lang-li {
     display: flex;
-    width: 42px;
+
 }
 .lang-a {
 margin-right: 5px;
 }
+
+.border-lang{
+    border-right: 2px solid #000000;
+    margin-right: 3px;
+}
+.lang-h2{
+    font-size: 19px;
+    color: #000000;
+}
+
 .adapt-icone{
     font-size: 36px;
 }

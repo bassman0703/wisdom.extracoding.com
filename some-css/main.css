@@ -1226,9 +1226,9 @@ ul.page-menu .nav-item ul li .nav-link {
 }
 
 .card-volunteer .card-title {
-    /*color:#000;*/
-    font-size: 1rem;
-    font-weight: 700;
+    color:#000;
+    font-size: 14px;
+    font-weight: bold;
     margin-bottom: 8px
 }
 
@@ -1789,12 +1789,12 @@ ul.page-menu .nav-item ul li .nav-link {
 
 .cs-btn-flat--dark i,
 .list-items .list-item a:hover {
-    /*color: #af0101*/
+    color: #000000;
 }
 
 .cs-btn-flat--dark:focus,
 .cs-btn-flat--dark:hover {
-    /*color: #af0101*/
+    color: #000000;
 }
 
 .cs-btn-flat--sm {
@@ -2235,6 +2235,19 @@ form {
     margin-top: 25px;
 }
 
+.page-footer .widget_text .mc4wp-form input,
+.form--search1 input{
+    background: 0 0;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    display: block;
+    width: 100%;
+    border-radius: 2px;
+    height:41px;
+    margin-top: 25px;
+}
+
+
 .page-footer .widget_mc4wp_form_widget .mc4wp-form input::-webkit-input-placeholder,
 .form--search input::-webkit-input-placeholder,
 .page-footer .footer-search-form input::-webkit-input-placeholder,
@@ -2295,12 +2308,18 @@ form {
 
 .page-footer .widget_mc4wp_form_widget .mc4wp-form input[type=submit],
 .page-footer .widget_mc4wp_form_widget .mc4wp-form input[type=submit] i,
-.page-footer .widget_text .mc4wp-form input[type=submit],
-.page-footer .widget_text .mc4wp-form input[type=submit] i,
+
 .form--search button i {
     color: #000000;
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out
+}
+.page-footer .widget_text .mc4wp-form input[type=submit],
+.page-footer .widget_text .mc4wp-form input[type=submit] i,{
+    color: #FFFFFF;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out
+
 }
 
 @media (max-width: 1110px) {

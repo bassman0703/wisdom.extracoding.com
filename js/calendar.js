@@ -5,17 +5,17 @@ var Cal = function(divId) {
 
     // Days of week, starting on Sunday
     this.DaysOfWeek = [
-        'Sun',
-        'Mon',
-        'Tue',
-        'Wed',
-        'Thu',
-        'Fri',
-        'Sat'
+        'კვ',
+        'ორშ',
+        'სამშ',
+        'ოთხ',
+        'ხუთ',
+        'პარ',
+        'შაბ'
     ];
 
     // Months, stating on January
-    this.Months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December' ];
+    this.Months = ['იანვარი', 'თებერვალი', 'მარტი', 'აპრილი', 'მაისი', 'ივნისი', 'ივლისი', 'აგვისტო', 'სექტემბერი', 'ოქტომბერი', 'ნოემბერი', 'დეკემბერი' ];
 
     // Set the current month, year
     var d = new Date();

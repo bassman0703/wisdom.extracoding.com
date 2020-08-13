@@ -1,22 +1,23 @@
 @main-bg:rgb(40,40,59);
-@calendar-border:rgb(220,220,255);
-@calendar-bg:#fff;
-@calendar-standout:rgb(40,40,59);
-@calendar-color:#444;
-@calendar-fade-color:#c0c0c0;
-@body-color:#444;
+@calendar-border:#000000;
+@calendar-bg:red;
+@calendar-standout:red;
+@calendar-color:red;
+@calendar-fade-color:red;
+@body-color:red;
 
 html, body {
     height:100%;
 }
-body {
-    font-size:100%;
-    line-height:1.5;
-    font-family: "Roboto Condensed", sans-serif;
-    background:@main-bg;
-    background-image:linear-gradient(@main-bg 0%, darken(@main-bg,12%) 100%);
-    color:@body-color;
-}
+/*body {*/
+/*    font-size:100%;*/
+/*    line-height:1.5;*/
+/*    font-family: "Roboto Condensed", sans-serif;*/
+/*    background:@main-bg;*/
+/*    !*background-image:linear-gradient(@main-bg 0%, darken(@main-bg,12%) 100%);*!*/
+/*    background-color: red;*/
+/*    color:@body-color;*/
+/*}*/
 
 *, *:before, *:after {
     box-sizing:border-box;
