@@ -2850,7 +2850,7 @@ table thead {
 
 .table thead th,
 table thead th {
-    background: #af0101;
+    /*background: #af0101;*/
     color: #fff;
     font-size: 12px;
     border: none;
@@ -2860,12 +2860,12 @@ table thead th {
 
 .table tr:nth-child(even) td,
 table tr:nth-child(even) td {
-    background: #ffcdcd
+    background: #ffffff;
 }
 
 .table tr:nth-child(odd) td,
 table tr:nth-child(odd) td {
-    background: #ffefef
+    background: #ffffff;
 }
 
 .table td,

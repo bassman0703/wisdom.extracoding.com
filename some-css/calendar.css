@@ -9,15 +9,15 @@
 html, body {
     height:100%;
 }
-/*body {*/
-/*    font-size:100%;*/
-/*    line-height:1.5;*/
-/*    font-family: "Roboto Condensed", sans-serif;*/
-/*    background:@main-bg;*/
-/*    !*background-image:linear-gradient(@main-bg 0%, darken(@main-bg,12%) 100%);*!*/
-/*    background-color: red;*/
-/*    color:@body-color;*/
-/*}*/
+body {
+    font-size:100%;
+    line-height:1.5;
+    font-family: "Roboto Condensed", sans-serif;
+    background:@main-bg;
+    /*background-image:linear-gradient(@main-bg 0%, darken(@main-bg,12%) 100%);*/
+    background-color: red;
+    color:@body-color;
+}
 
 *, *:before, *:after {
     box-sizing:border-box;
@@ -62,7 +62,7 @@ a {
 
     border:1px solid @calendar-border;
     border-radius:5px;
-    background:@calendar-bg;
+    background:#000000;
 
 }
 table {
@@ -87,12 +87,12 @@ td.not-current {
 td.normal {}
 td.today {
     font-weight:700;
-    color:@calendar-standout;
+    color:#f8df0c;
     font-size:1.5em;
 }
 thead td {
     border:none;
-    color:@calendar-standout;
+    color:#000000;
     text-transform:uppercase;
     font-size:1.5em;
 }
