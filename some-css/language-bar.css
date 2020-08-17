@@ -27,9 +27,11 @@ margin-right: 5px;
     color: #000000;
 }
 .bg-size{
-    height: 59px;
+    height: 60px;
     background: #f8df0c;
 }
 .ittoday{
     color: #f8df0c;
+    font-size: 20px;
 }
+

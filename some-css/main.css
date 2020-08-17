@@ -38,15 +38,15 @@ samp {
 
 a {
     background-color: transparent;
-    /*color:#000;*/
-    -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
+    color:#ffffff;
+    /*-webkit-transition: all .3s ease-in-out;*/
+    /*transition: all .3s ease-in-out;*/
     /* font-size: 1rem; */
-    text-decoration: none;
+    /*text-decoration: none;*/
 }
 
 a:hover{
-    /*color: #730101;*/
+    /*color: #ffffff;*/
 }
 
 abbr[title] {
@@ -294,7 +294,7 @@ p {
 a:focus,
 a:hover {
     text-decoration: none;
-    color:#000;
+    color:#ffffff;
 }
 
 button {
@@ -5734,7 +5734,7 @@ main {
     :after,
     :before {
         background: 0 0 !important;
-        color: #000000 !important;
+        /*color: #000000 !important;*/
         -webkit-box-shadow: none !important;
         box-shadow: none !important;
         text-shadow: none !important
@@ -6054,7 +6054,7 @@ main {
     padding: .8rem 3.25rem;
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
-    background: #000000;
+    /*background: #000000;*/
     text-align: center;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
@@ -6065,7 +6065,7 @@ main {
 
 .error-page a:hover {
     color: #fff;
-    background: #000000;
+    /*background: #000000;*/
 }
 
 @media (max-width: 1199px) {
