@@ -1229,7 +1229,8 @@ ul.page-menu .nav-item ul li .nav-link {
     color:#000;
     font-size: 14px;
     font-weight: bold;
-    margin-bottom: 8px
+    margin-bottom: 8px;
+    text-align: center;
 }
 
 .block--recent-event .recent-events-list .item ul li .icon-pin,
